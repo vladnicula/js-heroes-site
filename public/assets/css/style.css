@@ -540,6 +540,7 @@ nav.navigation ul li .dropdown-menu li {
   margin: 20px auto;
   text-align: left;
 }
+
 @media (min-width:768px) {
 nav.navigation ul li.dropdown:hover ul.dropdown-menu {
 	display:block !important;
