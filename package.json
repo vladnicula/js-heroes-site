@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/vladnicula/js-heroes-site/issues"
   },
-  "homepage": "https://github.com/vladnicula/js-heroes-site#readme"
+  "homepage": "https://github.com/vladnicula/js-heroes-site#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
