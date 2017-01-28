@@ -20,10 +20,10 @@ $(function(e) {
 	$('body').scrollspy({
 			offset:  navbarAffixHeight + 1
 	});
-	$('.navbar-nav a ').on('click', function(){
-	  if($('#navigation').removeClass('shownav')) {
-	  }
-    });
+	// $('.navbar-nav a ').on('click', function(){
+	//   if($('#navigation').removeClass('shownav')) {
+	//   }
+  //   });
 	
 	/*-------------------------------------------------------------------------------
 		Navigation
