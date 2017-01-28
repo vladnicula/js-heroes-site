@@ -1,0 +1,2530 @@
+@charset "utf-8";
+
+/*
+Theme Name: BeEvent - Conference & Event HTML Template
+Author: WMD Team
+Version:1.2
+*/
+
+/*===========================
+
+ =  Table of Css
+ 
+	1. General code
+		1.1. Typography
+		1.2. Button
+		1.3. Space margins and padding
+		1.4. Form
+		1.5. Section-background-color & sectino-heading
+		1.6. Overlay-color
+		
+	2. Header
+	3. Intro { Banner CSS}
+		3.1. Default Background image
+		3.2. Video Background
+		3.3. Background Slideshow
+	4. Countdown
+	5. About Conference 
+	6. conference info
+	7. Speaker
+	8. Schedule
+	9. Pricing
+	10. FAQ
+	11. Newsletter
+	12. Sponsors
+	13. Conference Venue
+	14. Footer
+	15. Back to top
+	16. Registration form
+	17. Latest Blog
+	18. Blog-Page & Blog Single page
+	19. Responsive CSS
+                                                     
+===========================*/
+
+
+
+/*====================
+	1. General code
+==========================*/
+
+body {
+	font-family:'Roboto', sans-serif;
+	margin:0px;
+	padding:0px !important;
+	overflow-x:hidden;
+	color:#555555;
+}
+
+/*------------------
+	1.1. Typography
+--------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	color:#111111;
+	font-weight:700;
+	margin:0 auto 30px;
+}
+h1 {
+	font-size:64px;
+}
+h2 {
+	font-size:54px;
+	color:#222222;
+}
+h3 {
+	font-size:44px;
+	font-weight:700;
+}
+h4 {
+	font-size:36px;
+}
+h5 {
+	font-size:28px;
+	font-weight:500px;
+	line-height:32px;
+}
+h6 {
+	font-size:20px;
+	color:#555555;
+}
+p {
+	font-size:18px;
+	color:#555555;
+	line-height:32px;
+	font-weight:300;
+}
+
+a {
+	transition-duration:0.5s;
+	 -moz-transition-duration:0.5s;
+	  -o-transition-duration:0.5s;
+	   -webkit-transition-duration:0.5s;
+	   -ms-transition-duration:0.5s;
+	text-decoration:none;
+	color:#de302f;
+}
+a:hover, a:focus {
+	text-decoration:none;
+	color:#de302f;
+	outline:none;
+}
+ul, ol {
+	margin:0 auto 20px;
+}
+ul li, ol li {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto 10px;
+}
+table {
+	margin:0 0 30px;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+.panel-body {
+  color: #8f8f8f;
+  font-size: 16px;
+  line-height: 32px;
+}
+.panel-title a, .panel-title a.collapsed {
+	color:#333;
+	display:block;
+	font-size:24px;
+	line-height:70px;
+	text-decoration:none;
+}
+.modal-header .close {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 29px;
+  height: 40px;
+  line-height: 40px;
+  text-align:center;
+  opacity: 1;
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  width: 40px;
+}
+.divider {
+  border-bottom:#333 solid 1px;
+  float: left;
+  height: 0px;
+  margin: 20px 0;
+  width: 100%;
+}
+.divider.dashed {
+  border-bottom:#333 dashed 1px;
+}
+.divider.dotted {
+  border-bottom:#333 dotted 1px;
+}
+
+.divider.double {
+  border-bottom:#333 double 4px;
+}
+.alignleft {
+  float: left;
+  margin: 10px 20px 20px 0;
+}
+.alignright {
+  float: right;
+  margin: 10px 0 20px 20px;
+}
+
+/*-----------------
+	1.2. Button
+-------------------------*/
+
+.btn {
+	background:#de302f;
+	border:medium none;
+	border-radius:0;
+	color:#fff;
+	font-size:22px;
+	font-weight:600;
+	line-height:1;
+	margin:auto;
+	padding:20px 50px;
+	text-transform:capitalize;
+	-moz-transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-ms-transition:all 0.5s linear;
+	-o-transition:all 0.5s linear;
+}
+.btn.btn-lg {
+	font-size:44px !important;
+	font-weight:600 !important;
+	padding:50px 108px;
+}
+.btn-lg-boder-w {
+	background:rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border:5px solid #ffffff;
+	font-size:36px !important;
+	font-weight:600 !important;
+	line-height:60px;
+	padding:15px 60px;
+}
+.btn:hover, .btn:focus {
+	background-color:#de302f;
+	color:#ffffff;
+	outline:none;
+}
+.btn-lg-boder-w:hover {
+	border:5px solid #de302f;
+}
+.btn-lg-boder-r {
+	background:rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border:5px solid #de302f;
+	font-size:36px !important;
+	font-weight:600 !important;
+	line-height:60px;
+	padding:15px 60px;
+	color:#222222;
+}
+.btn.btn-lg:hover {
+	background:#c51514
+}
+.btn.btn-danger {
+	background:#rgba(222, 48, 47, 1) !important;
+}
+.btn.btn-lg:after {
+	font-size:44px;
+}
+.btn-link, .btn-link:hover {
+	color:#de302f;	
+}
+
+
+/*-------------------------------------
+	1.3. Space margins and padding
+------------------------------------------------*/
+.padding_none {
+	padding:0px;
+}
+.padding {
+	padding:20px 0;
+}
+.padding_4x4_30 {
+	padding:30px;	
+}
+.padding_4x4_40 {
+	padding:40px;	
+}
+.space-20 {
+    width:100%;
+    height: 20px;
+	clear:both;
+}
+.space-30 {
+    width:100%;
+    height: 30px;
+	clear:both;
+}
+.space-40 {
+    width:100%;
+    height: 40px;
+	clear:both;
+}
+.space-60 {
+    width:100%;
+    height: 60px;
+	clear:both;
+}
+.space-80 {
+    height: 80px;
+    width:100%;
+}
+.margin-btm-20 {
+    margin-bottom: 20px;
+	clear:both;
+}
+.margin-none {
+	margin:0px;
+}
+
+
+/*-----------------
+	1.4. Form
+---------------------------*/
+
+.form-control, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
+	background:#eeecec none repeat scroll 0 0;
+	border:1px solid #eeecec;
+	border-radius:0;
+	box-shadow:none;
+	color:#555555;
+	font-size:16px;
+	height:65px;
+	padding:0 25px;
+}
+textarea.form-control {
+	padding:10px 25px;
+}
+textarea {
+	background:#eeecec none repeat scroll 0 0;
+	border:1px solid #eeecec;
+	border-radius:0;
+	box-shadow:none;
+	color:#555555;
+	font-size:16px;
+	height:150px;
+	padding:0 25px;
+}
+.form-control:focus {
+	border-color:#de302f;
+	box-shadow:none;
+}
+.form-control::-moz-placeholder {
+	color:#7e7d7d;
+}
+.form-group {
+	margin:auto auto 22px;
+	position:relative
+}
+
+.countdown-btn .btn::after {
+  content: "";
+  font-family: fontawesome;
+  font-size: 19px;
+  margin-left: 20px;
+}
+
+
+/*-------------------------------------------------
+	1.5. Section-background-color & sectino-heading
+------------------------------------------------------*/
+
+.secondary-bg {
+	background-color:#222222;
+	color:#fff;
+}
+.primary-bg {
+	background-color:#de302f;
+	color:#fff;
+}
+.fourth-bg {
+	background-color:#161616;
+}
+.section-padding {
+	padding:140px 0px;
+}
+.less-padding {
+	padding:50px 0px;
+}
+.border-box {
+	border:12px solid #cccccc;
+	overflow:hidden
+}
+.section-header {
+	margin-bottom:80px
+}
+.section-header p {
+	width:98%;
+}
+.div_zindex {
+	position:relative;
+	z-index:1;
+}
+.secondary-bg,
+.secondary-bg  p, 
+.secondary-bg h1, 
+.secondary-bg h2,
+.secondary-bg h3,
+.secondary-bg h4,
+.secondary-bg h5,
+.secondary-bg h6,
+.primary-bg,
+.primary-bg p,
+.primary-bg h1,
+.primary-bg h2,
+.primary-bg h3,
+.primary-bg h4,
+.primary-bg h5,
+.primary-bg h6,
+.white_text, 
+.white_text p, 
+.white_text h1,
+.white_text h2,
+.white_text h3,
+.white_text h4,
+.white_text h5,
+.white_text h6,
+.white_text p {
+	color:#fff;
+}
+
+
+/*--------------------------------------------
+	1.6. Overlay-color
+---------------------------------------------------*/
+
+.dark-overlay {
+  background: hsla(0, 0%, 0%, 0.7) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: inherit;
+}
+.red-overlay {
+	background:#de302f none repeat scroll 0 0;
+	content:"";
+	height:100%;
+	left:0;
+	opacity:0.85;
+	position:absolute;
+	top:0;
+	transition:all 0.5s linear 0s;
+	width:100%;
+}
+
+
+
+/*============================
+	2. Header & Navigation
+==================================*/
+
+header {
+	padding:40px 0px
+}
+.logo h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0;
+}
+.logo h3 a {
+	color:#fff;
+}
+.logo h3 a span, .logo h3 span {
+	color:#de302f;	
+}
+.info-text span {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 1;
+}
+#menu-toggle-close {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
+#menu-toggle-bar {
+  cursor: pointer;
+  display: inline-block;
+}
+#menu-toggle-bar i, #menu-toggle-close i {
+	font-size:30px;
+	font-weight:300;
+	color:#fff;
+	line-height:1
+}
+header.nav-stacked {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:222;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+header.nav-stacked.affix {
+	padding:30px 0px;
+	background:#000;
+	box-shadow:3px 0px 8px rgba(0,0,0,0.25);
+}
+nav.navigation {
+  background: hsl(0, 0%, 0%) none repeat scroll 0 0;
+  left: 0;
+  min-height: 100px;
+  padding: 24px 0;
+  position: fixed;
+  right: 0;
+  top: -400%;
+  transition-duration: 0.3s;
+   -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+     -webkit-transition-duration: 0.3s;
+      -ms-transition-duration: 0.3s;
+  z-index: 22222;
+}
+nav.navigation.shownav {
+	top:0px;
+}
+nav.navigation ul {
+	float:none;
+}
+nav.navigation ul li {
+	margin:0px 15px 0px 0px;
+}
+nav.navigation ul li a {
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+}
+nav.navigation ul li a:hover, nav.navigation ul li.active a, nav.navigation ul li a:focus {
+	background:none;
+	color:#de302f;
+}
+
+/*-------------------
+	Dropdown-menu
+-----------------------*/
+
+.dropdown-toggle .caret {
+	color:#fff;
+}
+.dropdown-menu {
+  background:#000000;
+}
+
+.dropdown-menu {
+	border-radius:3px;
+}
+nav.navigation ul li.active .dropdown-menu a {
+  color: #fff;
+}
+nav.navigation ul li .dropdown-menu li {
+  display: block;
+  margin: 20px auto;
+  text-align: left;
+}
+@media (min-width:768px) {
+nav.navigation ul li.dropdown:hover ul.dropdown-menu {
+	display:block !important;
+}
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+nav.navigation ul li .dropdown-menu li {
+  margin: 10px auto;
+}
+
+}
+
+
+/*===========
+	3. Intro
+===================*/
+
+.banner-section {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	overflow:hidden;
+}
+
+
+/*-----------------------------------
+	3.1. Default Background image
+------------------------------------------*/
+
+#banner {
+	background-image:url(../images/1920x900.jpg);	
+}
+.banner-content h1 {
+	font-size:90px;
+	color:#fff;
+}
+.banner-fixed {
+	display:table-cell;
+	height:100vh;
+	width:1%;
+	vertical-align:middle;
+	text-align:center;
+	position:relative;
+	z-index:1
+}
+.banner-tagline p {
+	font-size:24px;
+	color:#fff;
+	line-height:auto !important;
+	margin-top:20px;
+}
+
+
+/*----------------------------------
+	3.2. Video Background
+--------------------------------------*/
+.video {
+  bottom: 0;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 0px);
+}
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+
+/*----------------------------------
+	3.3. Background Slideshow
+--------------------------------------*/
+.slides {
+  background-position: center top;
+  background-size: cover;
+  height:100vh;
+  position:relative;
+}
+.masked::after {
+  background-color: rgba(0, 0, 0, 0.78);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+
+/*================
+	4. Countdown
+========================*/
+
+.countdown-tab {
+	position:relative
+}
+.counter-sec {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	padding:0px 15px;
+	z-index:1
+}
+.half-width {
+	width:50%;
+	float:left;
+}
+.coming-timer {
+	margin:0 auto;
+	background:#161616;
+	padding:22px 0px;
+}
+.countdown-counter {
+	margin:0 auto;
+	padding:22px 0px;
+	background:rgba(34,34,34,0.65);
+}
+.countdown-amount:after {
+	content:"";
+	height:100%;
+	width:1px;
+	background:#444445;
+	position:absolute;
+	top:0px;
+	right:-21px;
+}
+.countdown-amount:last-child:after {
+	margin:0px;
+	width:0px;
+}
+.countdown-amount:last-child {
+	margin:0px;
+}
+.countdown-period {
+	display:block;
+	font-size:17px;
+	line-height:1;
+	text-align:center;
+	font-weight:300;
+	margin-top:3px;
+	text-transform:capitalize;
+}
+.countdown-amount {
+	color:#fff;
+	font-size:50px;
+	font-weight:700;
+	display:inline-block;
+	list-style:outside none none;
+	margin:0 42px 0px auto;
+	padding:15px 0px;
+	text-align:center;
+	width:auto;
+	position:relative;
+	line-height:1;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+
+
+/*=====================
+	5. About Conference 
+============================*/
+
+.about-section {
+	position:relative
+}
+.about-content p {
+	margin-bottom:40px;
+}
+.carousel {
+	position:relative;
+	overflow:hidden
+}
+.carousel-inner .item img {
+	width:100%
+}
+.carousel-control {
+	box-shadow:none;
+	background:transparent
+}
+.left.carousel-control, .right.carousel-control {
+	background:#de302f none repeat scroll 0 0;
+	bottom:0;
+	font-size:40px;
+	height:45px;
+	line-height:22.5px;
+	opacity:1;
+	padding:0 !important;
+	position:absolute;
+	text-shadow:none;
+	top:inherit;
+	width:58px;
+}
+.left.carousel-control {
+	right:65px !important;
+	left:auto
+}
+.right.carousel-control {
+	right:0px !important;
+}
+
+
+/*===================
+	6. conference info
+==========================*/
+
+.conference-content-box {
+	padding-left:43px;
+	overflow:hidden;
+}
+.conference-price {
+	overflow:hidden;
+	padding:40px 0;
+}
+.conference-price > p {
+	color:#ffffff;
+}
+.conference-amount {
+	color:#ffffff;
+	font-size:40px;
+	font-weight:300;
+	line-height:52px;
+}
+.conference h2 {
+	color:#ffffff;
+}
+#conference {
+	position:relative;
+}
+.vc_row {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+.vc_col { 
+	display:flex;
+}
+.vc_column-inner {
+  display: block;
+  width: 100%;
+}
+.width50-right {
+  float: right;
+  max-width: 570px;
+  padding-right: 60px;
+  flex-direction: column;
+}
+.width50-left {
+  float: left;
+  max-width: 570px;
+  padding-left: 60px !important;
+  flex-direction: column;
+}
+.section-conference-bg {
+	background-image:url(../images/1200x1046.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+.spekers-tickets-box {
+	margin-bottom:35px;
+	overflow:hidden;
+	padding-top:10px;
+}
+.spekers-tickets-info {
+	background:#222222 none repeat scroll 0 0;
+	border-radius:50%;
+	color:#ffffff;
+	display:inline-block;
+	font-size:28px;
+	height:195px;
+	line-height:70px;
+	margin-right:30px;
+	padding:42px 20px;
+	text-align:center;
+	width:195px;
+	font-weight:300;
+}
+.conference-start-box {
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+}
+.spekers-tickets-info .fa {
+	display:block;
+	font-size:54px;
+}
+
+
+/*===============
+	7. Speaker
+======================*/
+
+.speaker-info {
+	margin-bottom:5px;
+	padding:15px 0;
+}
+.speaker-info h5 {
+	margin-bottom:0px;
+}
+.speaker-info h6 {
+	font-size:16px;
+	font-weight:300;
+	line-height:32px;
+}
+.speaker-info-box {
+	position:relative;
+}
+.social-icons a {
+	color:#ffffff;
+	font-size:40px;
+	line-height:100%;
+	margin-left:21px;
+}
+.social-icons {
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	width:100%;
+}
+.speaker-info-box:hover .speaker-hover {
+	opacity:1;
+}
+.speaker-hover {
+	background:rgba(222, 48, 47, 0.80) none repeat scroll 0 0;
+	height:100%;
+	left:0;
+	opacity:0;
+	position:absolute;
+	right:0;
+	top:0;
+	transition:all 0.5s linear 0s;
+	vertical-align:middle;
+	width:100%;
+}
+.social-icons a > i {
+  font-size: 30px;
+}
+
+
+/*===============
+	8. Schedule
+======================*/
+
+.day-time-m {
+	padding-bottom:70px;
+	text-align:center;
+}
+.day-time-m ul {
+	padding:0;
+}
+.day-time-m li {
+	border:3px solid #ffffff;
+	display:inline-block;
+	font-size:20px;
+	font-weight:300;
+	line-height:35px;
+	list-style:outside none none;
+	margin:0 10px;
+	text-align:center;
+	position:relative;
+}
+.day-time-m li.active, .day-time-m li:hover {
+	background:#de302f none repeat scroll 0 0;
+	border-color:#de302f;
+}
+.day-time-m li.active::after {
+  border-color: hsl(0, 73%, 53%) hsla(0, 0%, 0%, 0) hsla(0, 0%, 0%, 0);
+  border-style: solid;
+  border-width: 12px;
+  content: "";
+  height: 12px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 42px;
+  width: 12px;
+}
+.day-time-m li a {
+	color:#ffffff;
+	display:block;
+	padding:3px 25px;
+}
+.conference-time-list {
+	border-top:3px solid #393939;
+	overflow:hidden;
+	position:relative;
+}
+.conference-time-list:nth-last-child(1) {
+	border-bottom:3px solid #393939;
+}
+.conf-user-time {
+	color:#ffffff;
+	float:left;
+	padding:15px;
+	text-align:center;
+	width:135px;
+	font-weight:300;
+}
+.conf-user-time span.time {
+	display:block;
+	font-size:44px;
+	line-height:60px;
+}
+.time-schedule {
+	display:block;
+	font-size:20px;
+	text-align:right;
+}
+.conf-user-img {
+	float:left;
+	padding:29px 20px;
+	width:100px;
+}
+.conf-user-info {
+	float:left;
+	padding:34px 10px;
+	width:515px;
+}
+.conf-user-info h5 {
+	color:#de302f;
+	margin-bottom:10px;
+}
+.conf-user-info h6 {
+  color: hsl(0, 0%, 56%);
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+.conf-user-content {
+	overflow:hidden;
+	padding-top:25px;
+}
+.conf-user-content p {
+	color:#ffffff;
+	font-size:16px;
+}
+.conf-close {
+	background:#de302f none repeat scroll 0 0;
+	border-radius:50%;
+	color:#ffffff !important;
+	display:inline-block;
+	font-size:31px;
+	height:52px;
+	line-height:52px;
+	position:absolute;
+	right:23px;
+	text-align:center;
+	top:45px;
+	width:52px;
+	cursor:pointer;
+}
+.conf-close:hover {
+	color:#fff;
+}
+.conf-close.menu-down {
+	transform:rotate(89deg);
+}
+
+
+
+/*===============
+	9. Pricing
+======================*/
+
+.regi-price-table {
+	margin-bottom:29px;
+	overflow:hidden;
+}
+.pricing_wrap:nth-child(3n) {
+  clear: left;
+}
+.table-price-box {
+	display:table-cell;
+	padding:44px 21px;
+	vertical-align:top;
+	width:250px;
+	text-align:center;
+}
+.table-price-detail {
+	display:table-cell;
+	padding:30px 21px;
+	vertical-align:top;
+	width:281px;
+}
+.table-price-box h5 {
+	color:#ffffff;
+	margin-bottom:25px;
+}
+.regi-price-box {
+	border-top:1px solid #4e4e4e;
+	overflow:hidden;
+	padding-top:25px;
+}
+.regi-price-box p {
+	color:#de302f;
+	font-size:54px;
+	line-height:50px;
+}
+.table-price-detail ul {
+	padding-left:24px;
+	margin:0px;
+}
+.table-price-detail li {
+  color: hsl(0, 0%, 13%);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  list-style: outside none none;
+  margin: 24px 0;
+}
+.table-price-detail li .fa {
+	margin-right:8px;
+}
+.regi-price-btn-box {
+	margin:0 auto;
+	padding-top:10px;
+	text-align:center;
+}
+
+
+/*===============
+	10. FAQ
+======================*/
+
+section#faq {
+	position:relative;
+}
+.faq-box-m {
+	overflow:hidden;
+	padding-right:90px;
+}
+.faq-box-m h2 {
+	color:#ffffff;
+	margin-bottom:45px;
+}
+.panel-group .panel {
+	background:transparent none repeat scroll 0 0;
+	border:medium none;
+	border-radius:0;
+	padding:0px 0 0;
+	box-shadow:none;
+	border-top:1px solid #717171;
+}
+.panel-group .panel:nth-last-child(1) {
+	border-bottom:1px solid #717171;
+}
+.panel.panel-default:last-child {
+	padding-bottom:0px;
+}
+.panel-group {
+	margin-bottom:0;
+}
+.panel-heading {
+	position:relative;
+	padding:0;
+}
+.panel-body {
+	background-color:transparent;
+	padding:0;
+	margin-bottom:25px;
+}
+.panel-body p {
+	color:#908f8f;
+	font-size:16px;
+	line-height:32px;
+}
+.faq-box-m .panel-title a {
+	color:#ffffff;
+	display:block;
+	font-size:24px;
+	line-height:70px;
+	text-decoration:none;
+}
+.panel-default > .panel-heading {
+	background:none;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+	border-top:none;
+}
+.faq-box-m .panel-title a.collapsed {
+	background-color:transparent;
+	color:#fff;
+}
+.sport-video-box > h2 {
+	color:#ffffff;
+	line-height:70px;
+}
+.sport-video-box {
+	padding:0 40px;
+	position:relative;
+	z-index:1;
+}
+.video-box {
+	margin-top:50px;
+	overflow:hidden;
+}
+.video-box iframe {
+  border: 0 none;
+  height: 300px;
+  width: 100%;
+}
+.faq_bg {
+	background-image:url(../images/1200x1046.jpg);	
+}
+
+
+/*===============
+	11. Newsletter
+======================*/
+
+.subscribe-newsletter {
+	background:#222;
+	margin:0 auto;
+	text-align:center;
+}
+.newslette-iframe {
+  border: medium none;
+  height: 100px;
+  width: 100%;
+}
+.subscribe-form > h2 {
+	color:#fff;
+  display: inline-block;
+  line-height: 65px;
+  margin: 0 35px 0 0;
+  vertical-align: top;
+}
+.form-group.newsletter-input {
+	display:inline-block;
+	margin:0 -3px 0 auto;
+	vertical-align:top;
+	width:430px;
+}
+.newsletter-btn {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 0 none;
+  color: #222222;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 300;
+  height: 65px;
+  left: -65px;
+  padding: 3px 16px;
+  position: relative;
+  vertical-align: top;
+}
+.subscribe-form form {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/*==============
+	12. Sponsors
+====================*/
+
+.sponsors-list {
+	margin:0 auto;
+	overflow:hidden;
+	text-align:center;
+}
+.sponsors-list > ul {
+	margin:0 auto;
+	padding:0;
+}
+.sponsors-list li {
+  display: inline-block;
+  list-style: outside none none;
+  margin-bottom: 48px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+/*=====================
+	13. Conference Venue
+==============================*/
+
+.contact-info-box {
+	padding:50px 100px;
+	text-align:center;
+}
+.contact-info-details {
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.direction-icon {
+	color:#111111;
+	margin-bottom:5px;
+}
+.contact-info-details .fa {
+	font-size:80px;
+}
+.contact-info-details > h5 {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 8px 0;
+}
+.contact-info-details a {
+	color:#111111;
+}
+.contact-info-details a:hover {
+	color:#de302f;
+}
+.g-map-m .gmap {
+	height:666px;
+	width:100%;
+}
+
+
+/*==============
+	14. Footer
+=======================*/
+
+.footer-social-tab {
+  margin-bottom: 80px;
+  margin-top: 145px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.footer-social-tab ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-social-tab ul li {
+  display: inline-block;
+  list-style: outside none none;
+  vertical-align: middle;
+}
+.footer-social-tab a {
+  border: 1px solid hsl(0, 1%, 35%);
+  border-radius: 50%;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  font-size: 35px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 22px;
+  width: 80px;
+}
+.footer-social-tab a:hover {
+  border: 1px solid hsl(0, 73%, 53%);
+  color: hsl(0, 73%, 53%);
+}
+.footer-logo-text p {
+	font-size:306px;
+	font-weight:700;
+	line-height:170px;
+	color: hsl(0, 0%, 21%);
+}
+.copyright {
+	overflow:hidden;
+	padding:50px 0;
+	text-align:center;
+	position:relative;
+}
+.copyright p {
+  color: hsl(0, 0%, 100%);
+  font-size: 16px;
+}
+
+
+/*================
+	15. Back to top
+=========================*/
+
+.back-top {
+	bottom:20px;
+	position:fixed;
+	right:30px;
+	z-index:1;
+}
+.back-top a {
+  background: hsl(0, 0%, 0%) none repeat scroll 0 0;
+  border-radius: 0;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  font-size: 31px;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  vertical-align: top;
+  width: 52px;
+}
+#back-top a:hover {
+	opacity:0.57;
+}
+
+
+/*========================
+	16. Registration form
+================================*/
+
+label.error.wobble-error {
+  color: #de302f;
+  display: block;
+  font-weight: 400;
+  margin: 0;
+  padding: 3px 0 0 3px;
+  text-align: left;
+}
+
+.modal-message {
+  text-align: center;
+}
+.modal-message .modal-dialog {
+  top: 50%;
+}
+
+
+
+/*=======================
+	17. Latest Blog
+================================*/
+
+.blog_wrap h5 {
+	margin:0 auto 10px;	
+}
+.blog_wrap h5 a {
+	color:#222;	
+}
+.blog_wrap p {
+	font-size:16px;
+	line-height:26px;	
+}
+.blog_img {
+	overflow:hidden;
+}
+.blog_img img {
+	max-width:100%;
+}
+.blog_img a {
+	display:block;
+}
+.blog_meta p {
+	font-size:13px;
+	margin:0px;	
+	font-weight:400;
+	color:#de302f;s
+}
+
+/*===========================================
+	18. Blog-Page & Blog Single page
+=========================================================*/
+
+.inner-pages {
+  background-image: url("../images/1920x900.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  padding:90px 0;
+}
+.page_title {
+  margin: 90px auto 10px;
+}
+.our_articles {
+	padding:80px 0;
+}
+.our_articles .blog_wrap {
+  border-bottom: 1px solid #cfcfcf;
+  margin-bottom: 60px;
+  padding-bottom:40px;
+}
+.video_post iframe {
+	width:100%;
+	height:450px;	
+}
+.grid_view .video_post iframe {
+	width:100%;
+	height:230px;	
+}
+.quote_post .blog_img blockquote {
+	background:#de302f;
+	border:0px;
+	color:#fff;	
+	padding:80px 80px;
+	position:relative;
+	margin:0;
+}
+
+.quote_post .blog_img blockquote p {
+	color:#fff;
+	font-size:26px;	
+}
+.blog_wrap h4 a, .blog_wrap h3 a {
+	color:#111;
+}
+.blog_wrap h3 a:hover {
+	color:#de302f;	
+}
+.single_article .blog_meta p {
+	color:#555;
+	font-size:16px;	
+}
+.inline-div {
+	display:inline-block;
+}
+.single_article .blog_meta p {
+  color: #555;
+  font-size: 13px;
+  margin-bottom:0px;
+}
+.single_article .blog_meta {
+	margin-bottom:10px;
+}
+.blog_wrap h3 {
+  margin: 0 auto 20px;
+}
+.blog_meta p {
+  display: inline-block;
+  margin: 0 20px 10px 0;
+}
+.grid_view .blog_wrap {
+	 border:0px;
+	 margin-bottom:40px;
+}
+.grid_view .blog_wrap:nth-child(3n) {
+  clear: right;
+}
+.grid_view .blog_wrap:nth-child(3n+1) {
+  clear: left;
+}
+.view_one p {
+	font-size:18px;
+	line-height:32px;	
+}
+.pagination > li > a, .pagination > li > span {
+	color:#de302f;	
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, 
+.pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	background:#de302f;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, 
+.pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+	border-color:#de302f;
+}
+.pagination, 
+.pagination-lg > li:first-child > a, .pagination-lg > li:first-child > span, 
+.pagination-lg > li:last-child > a, .pagination-lg > li:last-child > span {
+  border-radius: 0;
+}
+.sidebar_wrap {
+	margin-left:20px;
+}
+.sidebar_wrap.leftsidebar {
+	margin-left:0px;
+	margin-right:20px;
+}
+.sidebar_widgets {
+	padding:20px;
+	border:#ddd solid 1px;
+	margin:0 auto 40px 0px;	
+}
+.widget_title {
+  margin: -20px -20px 20px;
+  padding: 20px;
+}
+.widget_title h6 {
+	margin:0px;
+}
+.list-style-none {
+	list-style:none;
+	padding:0;
+	margin:0px;	
+}
+.blog_categories li a {
+	color:#555;
+}
+.blog_categories li a:hover, .widget_post_info h6 a:hover {
+	color:#de302f;	
+}
+.widget_post_img {
+	width:45%;
+	float:left;
+	margin-right:14px;
+}
+.widget_post_img img {
+	max-width:100%;
+}
+.widget_post_info h6 a {
+	color:#111;
+}
+.popular_post li {
+  overflow: hidden;
+}
+
+.article_tag {
+  padding: 40px 0 0;
+}
+.article_tag h6, .article_tag .tag_list {
+  display:inline-block;
+  vertical-align:middle;
+  margin:0 8px 0 0;
+}
+.article_tag .tag_list li {
+	margin-bottom:0px;
+}
+.share_article {
+	text-align:right;
+}
+.share_article ul, .share_article h6 {
+	display:inline-block;
+	padding:0px;
+	margin:0 8px 0;
+	vertical-align:middle;
+}
+.share_article ul li {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color:#de302f;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  list-style: outside none none;
+  margin: 0 2px;
+  text-align: center;
+  transition-duration:0.3s;
+ 	 -moz-transition-duration:0.3s;
+	  -o-transition-duration:0.3s;
+	   -webkit-transition-duration:0.3s;
+	    -ms-transition-duration:0.3s;
+  vertical-align: middle;
+  width: 26px;
+}
+.share_article ul li a {
+	display:block;
+	font-size:15px;
+}
+.share_article ul li a .fa {
+	margin:0px auto;
+}
+.share_article ul li:hover a {
+	color:#fff;
+}
+.share_article ul li:hover {
+	background:#de302f;
+}
+
+/*--------------------
+	18.1 Comment-List
+----------------------------*/
+.articale_comments {
+	margin:0 auto 130px;
+}
+.block-head {
+  position: relative;
+}
+.commentlist {
+  margin: 0 0 30px;
+  padding: 0;
+}
+.commentlist li {
+  list-style: outside none none;
+  padding: 30px 0;
+}
+.commentlist li.comment {
+	 border-bottom: 1px solid #cecece;
+}
+.comment-author img {
+  float: left;
+}
+.commentlist li img.avatar {
+  border: medium none;
+  border-radius: 50%;
+  float: left;
+  height: 84px;
+  margin-bottom: 30px;
+  margin-right: 25px;
+  position: relative;
+  width: 84px;
+}
+.comment-body h1, .comment-body h2, .comment-body h3, .comment-body h4, .comment-body h5, .comment-body h6, .comment-body table, .comment-body ul, .comment-body ol, .comment-body blockquote, .comment-body dl, .comment-body address, .comment-body pre, .comment-body p, .comment-body .reply {
+  margin-left: 110px;
+}
+.comment-body p {
+  display: block;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+}
+.comment-meta.commentmetadata {
+	margin-bottom:8px;
+}
+.comment-meta.commentmetadata, .comment-meta.commentmetadata a {
+  color: #b7b7b7;
+  font-size: 14px;
+  font-weight: 400;
+}
+.comment-author .fn {
+  color: #111;
+  font-size:18px;
+  font-weight: 900;
+}
+.comment ul.children {
+  padding-left: 110px;
+}
+.comment ul.children li.comment {
+  border-bottom: 0 none;
+  border-top: 1px solid #cecece;
+  margin-top: 30px;
+  padding-bottom: 0;
+}
+.comment-form {
+	margin:40px 0;
+}
+
+
+
+
+
+
+
+/*================
+	19. Responsive CSS
+=========================*/
+
+@media (min-width:992px) and (max-width:1200px) {
+	
+.banner-content h1 {
+	font-size:65px;
+}
+h2 {
+	font-size:46px
+}
+.banner-tagline p {
+	font-size:23px;
+	margin-top:10px;
+}
+.btn.btn-lg {
+	padding:50px 58px;
+	font-size:40px !important;
+}
+p {
+	font-size:17px;
+	line-height:30px;
+}
+.about-content p {
+  margin-bottom: 30px;
+}
+.width50-right {
+  max-width: 470px;
+  padding-right: 20px;
+}
+.width50-left {
+  max-width: 470px;
+  padding-left: 20px;
+}
+.section-padding {
+	padding:90px 0;
+}
+.section-header {
+	margin-bottom:50px;
+}
+.spekers-tickets-info {
+  margin-right: 20px;
+}
+.table-price-detail li {
+  font-size: 22px;
+  margin: 18px 0;
+}
+.sport-video-box > h2 {
+  color: hsl(0, 0%, 100%);
+  line-height: 58px;
+}
+.conference-content-box {
+	padding-left:20px;
+}
+.conference-price {
+	padding:20px 0;
+}
+.faq-box-m {
+	padding-right:20px;
+}
+.sport-video-box {
+	padding:0 20px;
+}
+.vodeo-icon-box {
+	margin-top:50px;
+}
+.subscribe-form > h2 {
+	font-size:51px;
+	margin-right:30px;
+}
+.form-group.newsletter-input {
+  text-align: left;
+  width: 490px;
+}
+.subscribe-form input {
+  padding-right: 80px;
+}
+.subscribe-form input:focus, .subscribe-form input:hover {
+	border:0px;
+}
+.contact-info-details > h5 {
+  font-size: 22px;
+  line-height: 32px;
+}
+.g-map-m .gmap {
+  height: 596px;
+}
+.contact-info-box {
+	padding:50px 40px;
+}
+.footer-logo-text p {
+	font-size:245px;
+	line-height:145px;
+}
+.footer-social-tab {
+	margin-bottom:80px;
+	margin-top:80px;
+}
+.copyright {
+	padding:25px 0;
+}
+.newslette-iframe,  
+.subscribe-newsletter {
+  height: 200px;
+}
+.widget_post_info h6 {
+  font-size: 16px;
+}
+nav.navigation ul li {
+  margin: 0 6px 0 0;
+}
+.grid_view .video_post iframe {
+	width:100%;
+	height:190px;	
+}
+
+
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+nav.navigation ul {
+  text-align: center;
+}
+nav.navigation ul li {
+  display: inline-block;
+  float: none;
+  margin: 0 3px 0 0;
+}
+nav.navigation ul li a {
+  font-size: 16px;
+  padding: 10px;
+}
+#menu-toggle-close {
+	display:block;
+	padding:0px;
+	margin:0 0 20px;
+	text-align:center;
+}
+.banner-content h1 {
+	font-size:50px;
+}
+h2 {
+	font-size:43px;
+}
+h5 {
+  font-size: 26px;
+}
+.info-text span {
+  font-size: 22px;
+}
+.countdown-amount {
+	font-size:34px;
+	margin:0 auto;
+	padding:8px 0;
+	width:85px;
+}
+.countdown-period {
+	font-size:16px;
+}
+.countdown-amount::after {
+	right:0;
+}
+.btn.btn-lg {
+	font-size:34px !important;
+	font-weight:300 !important;
+	padding:40px 38px;
+}
+.btn.btn-lg::after {
+	font-size:34px;
+}
+.section-padding {
+	padding:70px 0;
+}
+.section-header {
+	margin-bottom:40px;
+}
+.about-content > h2 {
+	font-size:43px;
+	margin-bottom:10px;
+}
+.about-content p {
+	font-size:16px;
+	line-height:30px;
+	margin-bottom:10px;
+}
+.about-carousel {
+	margin-top:71px;
+}
+.spekers-tickets-box {
+	margin-bottom:25px;
+}
+.spekers-tickets-info .fa {
+	font-size:44px;
+}
+.conference-price > p {
+  display: inline-block;
+  margin-right: 10px;
+}
+.conference-content-box {
+	padding-left:13px;
+}
+.btn-lg-boder-w {
+	font-size:25px !important;
+	line-height:44px;
+	padding:10px 40px;
+}
+.conf-user-time span.time {
+	font-size:38px;
+}
+.conf-user-time {
+	padding:10px;
+	width:110px;
+}
+.conf-user-img {
+	padding:30px 15px;
+	width:90px;
+}
+.conf-user-info {
+	padding:34px 0;
+	width:520px;
+}
+.regi-price-box p {
+	font-size:44px;
+	line-height:35px;
+}
+.table-price-detail ul {
+	padding-left:0;
+}
+.table-price-detail, .table-price-box {
+	display:block;
+	width:100%;
+	padding:22px;
+}
+.table-price-detail li {
+	font-size:22px;
+}
+.btn-lg-boder-r {
+	font-size:28px !important;
+	line-height:50px;
+	padding:5px 45px;
+}
+.sponsors-list li {
+  margin-bottom: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.vc_row {
+  display: block;
+}
+.width50-right, .width50-left {
+  float: none;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0px !important;
+}
+.faq-box-m {
+	padding-right:15px;
+}
+.faq-box-m h2 {
+	margin-bottom:30px;
+}
+.panel-body p {
+	font-size:15px;
+	line-height:29px;
+}
+.panel-title a {
+	font-size:19px;
+	line-height:55px;
+}
+.sport-video-box {
+	padding:0 10px;
+}
+.vodeo-icon-box {
+	margin-top:40px;
+}
+.vodeo-icon-box a {
+	font-size:45px;
+}
+.subscribe-form > h2 {
+  display: block;
+  line-height: 50px;
+  margin: 0 auto 43px;
+}
+.contact-info-details .fa {
+	font-size:60px;
+}
+.contact-info-box {
+	padding:20px 25px;
+}
+.contact-info-details h5 {
+	font-size:21px;
+	line-height:35px;
+}
+.contact-info-details {
+	padding-bottom:10px;
+}
+.g-map-m .gmap{
+	height:494px;
+}
+.footer-social-tab {
+	margin-bottom:60px;
+	margin-top:60px;
+}
+.footer-social-tab a {
+	margin:0 15px;
+}
+.footer-logo-text p {
+	font-size:202px;
+	line-height:115px;
+	text-align:center;
+}
+.copyright {
+	padding:20px 0;
+}
+.newslette-iframe {
+  height: 180px;
+}
+.blog_wrap h5 {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto 10px;
+}
+.grid_view .video_post iframe {
+	width:100%;
+	height:140px;	
+}
+
+
+}
+
+
+@media (max-width:767px) {
+	
+#menu-toggle-close {
+	text-align:left;
+	display:block;
+}
+.modal-dialog {
+  width: 90%;
+}
+.modal-dialog .form-control, .modal-dialog input[type="text"], .modal-dialog input[type="email"], .modal-dialog input[type="url"], 
+.modal-dialog input[type="password"], .modal-dialog input[type="search"] {
+  font-size: 14px;
+  height: 48px;
+  padding: 0 15px;
+}
+.form-group {
+  margin: auto auto 15px;
+}
+.btn {
+  font-size: 20px;
+  padding: 17px 50px;
+}
+.modal h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.padding_4x4_40 {
+  padding: 25px;
+}
+h1 {
+	font-size:52px;	
+}
+h2 {
+	font-size:44px;
+}
+h5 {
+	font-size:24px;
+}
+nav.navigation ul.nav.navbar-nav {
+	height:400px;
+	overflow-Y:auto;
+}
+nav.navigation ul li {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+  padding: 10px 0;
+}
+nav.navigation ul li a {
+	display:inline-block;
+}
+nav.navigation.active {
+	height:100%;
+}
+.info-text span {
+	display:block;
+	font-size:25px;
+	text-align:center;
+}
+.info-text span {
+	font-size:22px;
+}
+.banner-tagline {
+  padding-top: 130px;
+}
+.logo .center-block {
+  display: inline;
+}
+.banner-content h1 {
+	font-size:46px;
+}
+.about-carousel.border-box {
+  margin-bottom: 0;
+}
+.counter-sec {
+  margin: 0 -15px;
+  padding: 0;
+  position: relative;
+}
+.conference-start-box h2 {
+	line-height:55px;
+}
+.width50-right, .width50-left {
+  float: none;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0px !important;
+}
+.half-width {
+	float:none;
+	width:100%;
+}
+.countdown-amount::after {
+	right:0;
+}
+.countdown-amount {
+	font-size:36px;
+	margin:0 auto;
+	padding:8px 0;
+	width:120px;
+}
+.countdown-period {
+	font-size:18px;
+}
+.btn.btn-lg {
+	font-size:25px !important;
+	padding:25px 10px;
+	width:100%;
+}
+.btn.btn-lg::after {
+	font-size:24px;
+}
+.countdown-counter {
+	padding:12px 0;
+}
+.section-padding {
+	padding:80px 0;
+}
+.conference-time-list {
+  padding: 20px 0;
+}
+p {
+	font-size:16px;
+	line-height:28px;
+}
+.section-header {
+	margin-bottom:40px;
+}
+.about-content p {
+	margin-bottom:20px;
+}
+.spekers-tickets-box {
+	margin-bottom:20px;
+}
+.conference-start-box > p {
+	width:100%;
+}
+.spekers-tickets-info {
+	height:185px;
+	margin:0 3%;
+	width:185px;
+	font-size:22px;
+
+}
+.spekers-tickets-info .fa {
+	font-size:44px;
+}
+.conference-price > p {
+  display: inline-block;
+}
+.section-conference-bg {
+	height:100%;
+	width:100%;
+}
+.vc_row {
+	display:block;
+}
+.section-overlay {
+	height:100%;
+	width:100%;
+}
+.conference-content-box {
+	position:relative;
+	z-index:1;
+}
+.conference-price {
+	padding:20px 0;
+}
+.btn-lg-boder-w {
+	font-size:32px !important;
+	line-height:53px;
+	padding:10px 48px;
+}
+.regi-price-table {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:560px;
+}
+.faq-box-m {
+	padding-right:0;
+	position:relative;
+	z-index:1;
+}
+.section-faq-bg {
+	bottom:0;
+	height:40%;
+	top:inherit;
+	width:100%;
+}
+.section-right-overlay {
+	bottom:0;
+	height:40%;
+	top:inherit;
+	width:100%;
+}
+
+.vodeo-icon-box {
+	margin-top:40px;
+	overflow:hidden;
+}
+.subscribe-form > h2 {
+	display:block;
+	margin-bottom:20px;
+	margin-right:0px;
+}
+.form-group.newsletter-input {
+	margin-bottom:30px;
+}
+.sponsors-list li {
+	margin-bottom:31px;
+	margin-left:12px;
+	margin-right:12px;
+}
+.sponsors-list img {
+	max-width:100%;
+}
+.border-box {
+	margin-bottom:50px;
+}
+.contact-info-box {
+	padding:50px;
+}
+.g-map-m .gmap {
+	height:500px;
+}
+.conf-user-time {
+	padding:15px 0;
+	width:74px;
+}
+.conf-user-time span.time {
+	font-size:24px;
+	line-height:40px;
+}
+.time-schedule {
+	font-size:16px;
+	text-align:center;
+}
+.conf-user-img {
+	float:left;
+	padding:9px;
+	width:75px;
+}
+.conf-user-info {
+	padding:15px 5px;
+	width:66%;
+}
+.conf-user-content {
+	padding-top:10px;
+}
+.conf-close {
+  font-size: 20px;
+  height: 32px;
+  line-height: 32px;
+  right: 8px;
+  top: 38px;
+  width: 32px;
+}
+.speaker-info-box {
+	margin:0 auto;
+}
+.speaker-info {
+	margin-bottom:10px;
+	padding:10px 0;
+}
+.spearker-img img {
+  width: 100%;
+}
+.speaker-sec {
+  margin: 0 auto;
+  max-width: 460px;
+}
+.footer-social-tab {
+	margin-bottom:40px;
+	margin-top:51px;
+}
+.footer-social-tab a {
+	font-size:25px;
+	height:50px;
+	line-height:48px;
+	margin:6px;
+	width:50px;
+}
+.footer-logo-text p {
+	font-size:76px;
+	line-height:46px;
+	text-align:center;
+}
+.copyright {
+	padding:20px 0;
+}
+.newslette-iframe, .subscribe-newsletter {
+  height: 275px;
+}
+.blog_wrap {
+  margin-bottom: 80px;
+}
+.blog_wrap h3 {
+  font-size: 26px;
+}
+.view_one p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.quote_post .blog_img blockquote {
+	padding:30px;	
+}
+.video_post iframe {
+  height: 300px;
+  width: 100%;
+}
+.quote_post .blog_img blockquote p {
+	font-size:18px;
+}
+.share_article {
+  margin-top: 20px;
+  text-align: left;
+}
+.commentlist li img.avatar {
+  height: 50px;
+  margin-right: 15px;
+  width: 50px;
+}
+.comment-body h1, .comment-body h2, .comment-body h3, .comment-body h4, .comment-body h5, .comment-body h6, .comment-body table, .comment-body ul, .comment-body ol, .comment-body blockquote, .comment-body dl, .comment-body address, .comment-body pre, .comment-body p, .comment-body .reply {
+  margin-left: 70px;
+}
+.comment-body p {
+  font-size: 14px;
+  line-height: 23px;
+}
+.comment ul.children {
+  padding-left: 60px;
+}
+.comment-respond {
+  margin-bottom: 100px;
+}
+.sidebar_wrap {
+	margin:80px 0 0 !important;
+}
+
+
+}
+
+
+
+@media (max-width:479px) {
+
+.banner-content h1, h1 {
+  font-size: 40px;
+}
+h2 {
+	font-size:33px;	
+}
+.info-text {
+	display:none;
+}
+.countdown-amount {
+	font-size:26px;
+	width:72px;
+}
+.countdown-period {
+	font-size:16px;
+}
+.banner-tagline p {
+	font-size:18px;
+	margin-top:10px;
+}
+.btn.btn-lg {
+	width:100%;
+}
+
+.spekers-tickets-info {
+	font-size:19px;
+	height:136px;
+	margin:0 1%;
+	width:136px;
+	padding:23px 10px;
+	line-height:50px;
+}
+.spekers-tickets-info .fa {
+	font-size:39px;
+}
+.conference-content-box p {
+	font-size:16px;
+}
+.btn-lg-boder-w {
+	font-size:26px !important;
+	line-height:42px;
+	padding:8px 28px;
+}
+.conference-amount {
+	font-size:30px;
+	line-height:42px;
+}
+.day-time-m li {
+  border: 2px solid hsl(0, 0%, 100%);
+  font-size: 16px;
+  margin: 0 5px;
+  padding: 0;
+}
+.day-time-m li a {
+
+  padding: 3px 12px;
+}
+.day-time-m li.active::after {
+	top:37px;
+}
+.day-time-m {
+	padding-bottom:40px;
+}
+.conf-user-time {
+  float: none;
+  margin: 0 auto 10px;
+  padding: 14px 2% 10px;
+  text-align: left;
+  width: 100%;
+}
+.conference-time-list {
+  padding: 10px 0;
+}
+.conf-user-time span.time {
+	display:inline-block;
+	font-size:35px;
+	line-height:40px;
+	text-align:center;
+}
+.time-schedule {
+	display:inline-block;
+	font-size:16px;
+	text-align:center;
+}
+.conf-user-img {
+	float:left;
+	padding:4px 4% 4px 0;
+	width:22%;
+}
+.conf-close {
+  font-size: 20px;
+  height: 32px;
+  right: 7px;
+  top: 27px;
+  line-height: 32px;
+  width: 32px;
+}
+.conf-user-info {
+	padding:6px 0 25px;
+	width:78%;
+}
+.conf-user-content {
+	padding-top:15px;
+}
+.conf-user-content p {
+	font-size:15px;
+	line-height:27px;
+}
+.table-price-box, .table-price-detail {
+  display: block;
+  padding: 13px 20px;
+  width: 100%;
+}
+.table-price-box h5 {
+	font-size:24px;
+	margin-bottom:8px;
+}
+.regi-price-box {
+	padding-top:16px;
+}
+.regi-price-box p {
+	font-size:41px;
+	line-height:42px;
+}
+.table-price-detail ul {
+	padding-left:0;
+}
+.table-price-detail li {
+	font-size:18px;
+}
+.btn-lg-boder-r {
+	font-size:26px !important;
+	line-height:40px;
+	padding:10px 30px;
+}
+.panel-title a {
+	font-size:16px;
+	line-height:50px;
+}
+.sport-video-box > h2 {
+	font-size:36px;
+	line-height:51px;
+}
+.vodeo-icon-box a {
+	font-size:40px;
+}
+.form-group.newsletter-input {
+  margin: 0 0 10px;
+  width: 100%;
+}
+.newsletter-btn {
+  font-size: 22px;
+  height: 55px;
+  padding: 3px 36px;
+}
+.contact-info-box {
+	padding:20px;
+}
+.contact-info-details > h5 {
+	font-size:19px;
+	line-height:31px;
+}
+.direction-icon {
+	margin-bottom:5px;
+}
+.g-map-m .gmap {
+	height:310px;
+}
+.newsletter-btn {
+  float:right;
+  left: 0;
+  margin-top: -70px;
+}
+
+
+}

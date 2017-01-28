@@ -1,0 +1,88 @@
+
+a, a:hover, a:focus, 
+.logo h3 a span, 
+.logo h3 span, 
+nav.navigation ul li a:hover, 
+nav.navigation ul li.active a, 
+nav.navigation ul li a:focus, 
+.conf-user-info h5, 
+.regi-price-box p, 
+.footer-social-tab a:hover, 
+.contact-info-details a:hover, 
+.blog_wrap h5 a:hover, 
+.contact-info-details a:hover, 
+.blog_wrap h5 a:hover, 
+.blog_meta p, 
+.pagination > li > a, .pagination > li > span, 
+.blog_wrap h3 a:hover, 
+.blog_categories li a:hover, 
+.widget_post_info h6 a:hover, 
+.btn-link, .btn-link:hover, 
+nav.navigation ul li.active .dropdown-menu a:hover {
+  color:#228dcb;	
+  fill: #228dcb;
+}
+
+.btn, 
+.primary-bg, 
+.red-overlay, 
+.left.carousel-control, 
+.right.carousel-control, 
+.day-time-m li.active, 
+.day-time-m li:hover, 
+.conf-close, 
+.demo_changer .demo-icon, 
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover, 
+.share_article ul li:hover, 
+.quote_post .blog_img blockquote {
+  background:#228dcb;
+  fill: #228dcb;
+}
+
+
+.btn:hover, .btn:focus, 
+.btn.btn-lg:hover {
+  background-color:#157cb8;
+  fill: #157cb8;
+}
+
+
+.btn-lg-boder-w:hover, 
+.btn-lg-boder-r, 
+.footer-social-tab a:hover, 
+.newsletter-btn:hover, 
+.form-control:focus {
+  border-color:#157cb8;
+}
+
+.day-time-m li.active, 
+.day-time-m li:hover, 
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, 
+.pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover, 
+.share_article ul li  {
+  border-color:#228dcb;
+}
+
+.speaker-hover {
+  background:rgba(34, 141, 203, 0.80) none repeat scroll 0 0;
+}
+.day-time-m li.active::after {
+  border-color: #228dcb transparent transparent;
+}
+
+
+.newsletter-btn {
+  background: #ffffff none repeat scroll 0 0;
+  border-color:#222222;
+}
+.social-icons a:hover {
+	color:#fff;
+}
+.btn-lg-boder-r, .btn-lg-boder-w {
+  background:rgba(0, 0, 0, 0) none repeat scroll 0 0;	
+}
