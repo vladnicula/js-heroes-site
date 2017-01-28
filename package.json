@@ -1,0 +1,22 @@
+{
+  "name": "js-heroes-site",
+  "version": "1.0.0",
+  "description": "Site for JS Heroes Event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladnicula/js-heroes-site.git"
+  },
+  "author": "Vlad Nicula",
+  "license": "Private",
+  "bugs": {
+    "url": "https://github.com/vladnicula/js-heroes-site/issues"
+  },
+  "homepage": "https://github.com/vladnicula/js-heroes-site#readme"
+}
