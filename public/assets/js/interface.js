@@ -41,7 +41,7 @@ $(function(e) {
 	 Timer
 	-------------------------------------------------------------------------------*/
  	var austDay = new Date();
-	austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+	austDay = new Date('2017-06-08 09:00');
 	$('#defaultCountdown').countdown({until: austDay});
 	$('#year').text(austDay.getFullYear());
  
@@ -60,23 +60,23 @@ $('.conf-close').on('click', function(e) {
   Background slider
 -------------------------------------------------------------------------------*/
    
-  $("#slideshow").owlCarousel({
-	autoPlay : 5000,
-	stopOnHover : false,
-	navigation:false,
-	paginationSpeed : 1000,
-	goToFirstSpeed : 2000,
-	singleItem : true,
-	autoHeight : true,
-	transitionStyle:"fadeUp"
-  });
+  // $("#slideshow").owlCarousel({
+	// autoPlay : 5000,
+	// stopOnHover : false,
+	// navigation:false,
+	// paginationSpeed : 1000,
+	// goToFirstSpeed : 2000,
+	// singleItem : true,
+	// autoHeight : true,
+	// transitionStyle:"fadeUp"
+  // });
  
  
  /*------------------------------------------------------------------
 	Countdown
 	-------------------------------------------------------------------*/
  
-	var endDate = "march 22, 2017";
+	var endDate = "june 08, 2017";
 	$('.countdown.styled').countdown({
 	  date: endDate,
 	  render: function(data) {
@@ -115,16 +115,16 @@ $('.conf-close').on('click', function(e) {
 		var map;
 		map = new GMaps({
 			el: '#js-gmap',
-			lat: -23.976215,
-			lng:133.769531,
-			scrollwheel:false,
-			zoom: 4,
-			zoomControl : true,
+			lat: 46.7524816,
+			lng: 23.6036848,
+			scrollwheel:true,
+			zoom: 16,
+			zoomControl : false,
 			panControl : false,
 			streetViewControl : false,
 			mapTypeControl: false,
 			overviewMapControl: false,
-			clickable: false
+			clickable: true
 		});
 		var image = 'assets/images/map-label.png';
 		var infoWindow = new google.maps.InfoWindow({
