@@ -894,6 +894,28 @@ audio, canvas, progress, video {
   font-size: 30px;
 }
 
+.speaker-sec {
+	text-align: center
+}	
+
+.speaker-info-box {
+	max-width: 245px;
+	height: 245px;
+	position: relative
+}
+
+.speaker-info h5 {
+	margin-bottom: 10px;
+}
+
+.speaker-info h6 {
+	height: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
 
 /*===============
 	8. Schedule
@@ -1795,6 +1817,17 @@ nav.navigation ul li {
 }
 
 
+@media (max-width: 1200px) {
+	.speaker-info-box {
+		height: 210px;	
+	}
+
+	/*.speaker-info-box img {
+		margin-top: -12px
+	}*/
+}
+
+
 @media (min-width:768px) and (max-width:991px) {
 
 nav.navigation ul {
@@ -2345,7 +2378,6 @@ p {
 .sidebar_wrap {
 	margin:80px 0 0 !important;
 }
-
 
 }
 
