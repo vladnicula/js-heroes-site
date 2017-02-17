@@ -779,6 +779,10 @@ audio, canvas, progress, video {
 #conference {
 	position:relative;
 }
+#conference .apply-button {
+	margin-top: 68px
+}
+
 .vc_row {
 	box-sizing: border-box;
 	display: flex;
@@ -1706,6 +1710,11 @@ label.error.wobble-error {
 
 @media (min-width:992px) and (max-width:1200px) {
 	
+#conference .apply-button {
+	margin-top: 12px
+}
+
+
 .banner-content h1 {
 	font-size:65px;
 }
@@ -1837,6 +1846,11 @@ nav.navigation ul li {
 
 
 @media (min-width:768px) and (max-width:991px) {
+
+#conference .apply-button {
+	margin-top: 12px
+}
+
 
 nav.navigation ul {
   text-align: center;
@@ -2051,6 +2065,11 @@ h5 {
 
 @media (max-width:767px) {
 	
+
+#conference .apply-button {
+	margin-top: 12px
+}
+
 #menu-toggle-close {
 	text-align:left;
 	display:block;
