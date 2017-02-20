@@ -96,7 +96,7 @@
       <!-- /contact number --> 
       
       <!-- Menu-toggle -->
-      <div class="col-xs-2 col-sm-5">
+      <div class="col-xs-5 col-sm-5">
         <div  class="text-right">
           <div id="menu-toggle-bar"> <i class="fa fa-bars" aria-hidden="true"></i> </div>
         </div>
@@ -131,7 +131,10 @@
             <div class="countdown styled"></div>
           </div>
         </div>
-        <div class="countdown-btn half-width"> <a href="#" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#registration_form" >Register Today</a> </div>
+        <div class="countdown-btn half-width"> 
+          <h4 style="color:#fff; line-height: 60px">Tickets comming soon</h4>
+          <!--<a href="#" class="btn btn-lg btn-danger">Register Today</a>  -->
+        </div>
       </div>
     </div>
   </div>
@@ -188,7 +191,7 @@
           <div class="spekers-tickets-info"> <i class="fa fa-microphone" aria-hidden="true"></i> <span class="summary">20 Speakers</span> </div>
           <div class="spekers-tickets-info"> <i class="fa fa-ticket" aria-hidden="true"></i> <span class="summary">500 Attendees</span> </div>
         </div>
-        <p>What&amp;s your superpower? Submit your talk proposal today!</p>
+        <p>What's your superpower? Submit your talk proposal today!</p>
         <br/>
         <a href="#" class="btn btn-lg-boder-w apply-button" data-toggle="modal" data-target="#registration_form" style="background:#000">Apply as a speaker</a>
 
@@ -230,7 +233,7 @@
       <!-- speakers -->
       <div class="col-xs-12 col-sm-4 col-md-3">
         <div class="speaker-sec">
-          <div class="speaker-info-box text-center border-box">
+          <div class="speaker-info-box text-center border-box" data-toggle='modal' data-target='#speaker-info'>
             <div class="spearker-img"> <img src="assets/liran.png" alt="" class="img-responsive center-block"> </div>
             <div class="speaker-hover">
               <div class="social-icons text-center"> 
@@ -251,7 +254,7 @@
       </div>
       <div class="col-xs-12 col-sm-4 col-md-3">
         <div class="speaker-sec">
-          <div class="speaker-info-box text-center border-box">
+          <div class="speaker-info-box text-center border-box" data-toggle='modal' data-target='#speaker-info'>
             <div class="spearker-img"> <img src="assets/mark.jpg" alt="" class="img-responsive center-block"> </div>
            <div class="speaker-hover">
               <div class="social-icons text-center"> 
@@ -270,7 +273,7 @@
       </div>
       <div class="col-xs-12 col-sm-4 col-md-3">
         <div class="speaker-sec">
-          <div class="speaker-info-box text-center border-box">
+          <div class="speaker-info-box text-center border-box" data-toggle='modal' data-target='#speaker-info'>
             <div class="spearker-img"> <img src="assets/jack.jpg" alt="" class="img-responsive center-block"> </div>
             <div class="speaker-hover">
               
@@ -290,7 +293,7 @@
       </div>
       <div class="col-xs-12 col-sm-4 col-md-3">
         <div class="speaker-sec">
-          <div class="speaker-info-box text-center border-box">
+          <div class="speaker-info-box text-center border-box" data-toggle='modal' data-target='#speaker-info'>
             <div class="spearker-img"> <img src="assets/martin.jpg" alt="" class="img-responsive center-block"> </div>
             <div class="speaker-hover">
               <div class="social-icons text-center"> 
@@ -301,7 +304,7 @@
             </div>
           </div>
           <div class="speaker-info">
-            <h5><a href="http://50linesofco.de">Martin Splitt</a></h5>
+            <h5><a href="http://150linesofco.de">Martin Splitt</a></h5>
             <h6>Senior software engineer @ Archilogic </h6>
             <!--<p>Open web &amp; open source cheerleader, Google Developer Expert for web technologies, W3C contributor, O'Reilly Workshop instructor, book author and a good guy with a loud laugh. </p>-->
           </div>
@@ -339,8 +342,9 @@
           </ul>
         </div>
         <div id="my-tab-content" class="tab-content"> 
-          <h5>Coming soon</h5>
-          
+          <div class="tab-pane active" id="day1">
+            <h5>Coming soon</h5>
+          </div>
           <!--Day 1 schedule-->
           <!--<div class="tab-pane active" id="day1">
             <div class="conference-time-list">
@@ -422,8 +426,9 @@
           
           <!--Day 2 schedule-->
           <div class="tab-pane" id="day2">
-            <h5>Comng soon</h5>
-            
+            <div class="tab-pane active" id="day2">
+              <h5>Coming soon</h5>
+            </div>
             <!--<div class="conference-time-list">
               <div class="conf-user-time"> <span class="time">08:00</span> <span class="time-schedule">am</span> </div>
               <div class="conf-user-img"> <img class="img-responsive center-block" src="assets/images/60x80.jpg" alt=""> </div>
@@ -655,47 +660,30 @@
 <!--/Back to top--> 
 
 <!--Registration Form-->
-<div id="registration_form" class="modal fade" role="dialog">
+<div id="speaker-info" class="modal fade" role="dialog">
   <div class="modal-dialog"> 
     <!-- Modal content-->
-    <div class="modal-content padding_4x4_40 text-center">
-      <div class="modal-header">
-        <h3>Reserve Your Seat</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <div class="modal-content padding_4x4_40">
+      <div class="speaker-sec">
+        <div class='speaker-aside'>
+          <div class="speaker-info-box text-center border-box" data-toggle='modal' data-target='#speaker-info'>
+            <div class="spearker-img"> <img src="assets/jack.jpg" alt="" class="img-responsive center-block"> </div>
+          </div>
+          <div>
+            <h5 class="speaker-name"><a href="http://www.javascriptplayground.com">Jack Franklin</a></h5>
+            <h6 class='speaker-role'>Senior JavaScript Developer</br> Songkick</h6>
+             <div class="social-links"> 
+                <a href="https://twitter.com/Jack_Franklin"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> 
+                <a href="https://github.com/jackfranklin"><i class="fa fa-github-square" aria-hidden="true"></i></a> 
+                <a href="http://www.javascriptplayground.com"><i class="fa fa-external-link-square" aria-hidden="true"></i></a> 
+              </div>
+          </div>
+        </div>
+
+        <div class="speaker-description">
+          <p>Jack is a Senior JavaScript Developer at Songkick in London where he spends most of his time writing or talking about JavaScript, React and Elm.</p>
+        </div>
       </div>
-      <form id="js-ajax-form" class="js-ajax-form">
-        <div class="form-group">
-          <input class="form-control" name="name" type="text" placeholder="Full Name" required="">
-        </div>
-        <div class="form-group">
-          <input class="form-control" name="email" type="email" placeholder="Email Address" required="">
-        </div>
-        <div class="form-group">
-          <input class="form-control" name="phone" type="text" placeholder="Phone Number" required="">
-        </div>
-        <div class="form-group">
-          <select class="form-control" name="Numberofseats" required="">
-            <option value="">Number of Seats</option>
-            <option value="1">1 Seat</option>
-            <option value="2">2 Seats</option>
-            <option value="3">3 Seats</option>
-            <option value="4">4 Seats</option>
-            <option value="5">5 Seats</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <select class="form-control" name="eventPlan" required="">
-            <option value="">Choose a Plan </option>
-            <option value="FrontSeat">Front Seat</option>
-            <option value="MiddleSeat">Middle Seat</option>
-            <option value="BackSeat">Back Seat</option>
-            <option value="VIP">VIP</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <input class="btn" name="register-btn" type="submit" value="Register Now!">
-        </div>
-      </form>
     </div>
   </div>
 </div>
@@ -738,5 +726,6 @@
 
 <!-- Countdown--> 
 <script src="assets/js/jquery.countdown.min.js"></script>
+
 </body>
 </html>

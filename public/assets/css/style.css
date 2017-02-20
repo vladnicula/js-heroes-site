@@ -780,7 +780,7 @@ audio, canvas, progress, video {
 	position:relative;
 }
 #conference .apply-button {
-	margin-top: 68px
+	margin-top: 67px
 }
 
 .vc_row {
@@ -798,12 +798,12 @@ audio, canvas, progress, video {
 .width50-right {
   float: right;
   max-width: 570px;
-  padding-right: 60px;
+  padding-right: 50px;
   flex-direction: column;
 }
 .width50-left {
   float: left;
-  max-width: 570px;
+  max-width: 510px;
   padding-left: 60px !important;
   flex-direction: column;
 }
@@ -1704,10 +1704,42 @@ label.error.wobble-error {
 }
 
 
+#speaker-info {
+	text-align: start
+}
 
+#speaker-info .speaker-aside {
+	min-width: 225px;
+	min-height: 225px;
+}
 
+#speaker-info .speaker-sec {
+	display: flex;
+}
 
+#speaker-info .speaker-name {
+	margin-bottom: 6px
+}
 
+#speaker-info .speaker-role {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+#speaker-info .speaker-info-box {
+	margin-bottom: 10px
+}
+
+#speaker-info .social-links .fa {
+	color: #333;
+	font-size: 30px;
+	padding: 0 3px;
+}
+
+#speaker-info .speaker-description {
+	text-align: start;
+	margin-left: 26px;
+}
 
 /*================
 	19. Responsive CSS
@@ -2070,6 +2102,17 @@ h5 {
 
 @media (max-width:767px) {
 	
+#speaker-info .speaker-sec {
+	flex-flow: column
+}
+
+#speaker-info .speaker-aside {
+	margin-bottom: 12px
+}
+
+#speaker-info .speaker-role {
+	font-size: 16px;
+}
 
 #conference .apply-button {
 	margin-top: 12px
