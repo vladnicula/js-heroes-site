@@ -1302,6 +1302,11 @@ section#faq {
 	14. Footer
 =======================*/
 
+footer {
+		max-width: 100%;
+    overflow-x: hidden;
+}
+
 .footer-social-tab {
   margin-bottom: 80px;
   margin-top: 145px;
