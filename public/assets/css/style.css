@@ -1712,7 +1712,7 @@ label.error.wobble-error {
 
 
 #speaker-info {
-	text-align: start
+	text-align: start;
 }
 
 #speaker-info .speaker-aside {
@@ -1721,7 +1721,10 @@ label.error.wobble-error {
 }
 
 #speaker-info .speaker-sec {
-	display: flex;
+	/*display: flex;*/
+
+	max-width: 360px;
+	margin: auto;
 }
 
 #speaker-info .speaker-name {
@@ -1734,13 +1737,17 @@ label.error.wobble-error {
 }
 
 #speaker-info .speaker-info-box {
-	margin-bottom: 10px
+	margin: 0 auto 10px auto;
 }
 
 #speaker-info .social-links .fa {
 	color: #333;
 	font-size: 30px;
 	padding: 0 3px;
+}
+
+#speaker-info .social-links  {
+	margin-bottom: 10px;
 }
 
 #speaker-info .speaker-description {
@@ -1875,17 +1882,29 @@ nav.navigation ul li {
 
 
 @media (max-width: 1200px) {
-	.speaker-info-box {
-		height: 210px;	
-	}
 
 	body {
 		text-align: center
 	}
 
-	/*.speaker-info-box img {
-		margin-top: -12px
-	}*/
+	.speaker-info-box .spearker-img {
+		height: 245px;
+		width: 245px;
+		position: relative;
+	}
+
+	.speaker-info-box img {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		-ms-transform: translateX(-50%) translateY(-50%);
+		transform: translateX(-50%) translateY(-50%);
+	}
+
+	.speaker-info-box img {
+
+	}
 }
 
 
