@@ -787,7 +787,8 @@ audio, canvas, progress, video {
 	position:relative;
 }
 #conference .apply-button {
-	margin-top: 67px
+	/*margin-top: 67px*/
+	margin-top: 12px
 }
 
 .vc_row {
