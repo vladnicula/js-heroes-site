@@ -879,6 +879,11 @@ audio, canvas, progress, video {
 .speaker-info-box {
 	position:relative;
 }
+
+.speaker-info-box .spearker-img {
+	cursor: pointer
+}
+
 .social-icons a {
 	color:#ffffff;
 	font-size:40px;
@@ -1726,6 +1731,10 @@ label.error.wobble-error {
 
 	max-width: 360px;
 	margin: auto;
+}
+
+#speaker-info .spearker-img {
+	cursor: default;
 }
 
 #speaker-info .speaker-name {
