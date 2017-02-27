@@ -879,6 +879,7 @@ audio, canvas, progress, video {
 }
 .speaker-info-box {
 	position:relative;
+	margin: 0 auto;
 }
 
 .speaker-info-box .spearker-img {
