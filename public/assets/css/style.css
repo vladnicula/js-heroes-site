@@ -1767,6 +1767,15 @@ label.error.wobble-error {
 	margin-left: 26px;
 }
 
+
+/*=================
+ Bootstarp overwrite
+====================*/
+
+.modal-content {
+	border-radius: 0;
+}
+
 /*================
 	19. Responsive CSS
 =========================*/
