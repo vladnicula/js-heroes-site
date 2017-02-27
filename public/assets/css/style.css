@@ -575,7 +575,8 @@ nav.navigation ul li .dropdown-menu li {
 ------------------------------------------*/
 
 #banner {
-	background-image:url(../images/1920x900.jpg);	
+	/*background-image:url(../images/1920x900.jpg);	*/
+	background-image:url(../images/header-image.jpg);	
 }
 .banner-content h1 {
 	font-size:90px;
