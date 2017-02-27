@@ -99,8 +99,8 @@ $(function () {
         `
     }
 
-    $('#speakers').on('click', '.spearker-img', function (event) {
-        var target = $(event.target).closest('.spearker-img')
+    $('#speakers').on('click', '.speaker-hover', function (event) {
+        var target = $(event.target).closest('.speaker-info-box').find('.spearker-img')
         var speakerId = target[0].dataset && target[0].dataset.speaker
         var content 
 

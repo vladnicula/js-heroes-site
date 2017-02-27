@@ -1767,6 +1767,13 @@ label.error.wobble-error {
 	margin-left: 26px;
 }
 
+.speaker-more-cta {
+	line-height: 221px;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer
+}
+
 
 /*=================
  Bootstarp overwrite
