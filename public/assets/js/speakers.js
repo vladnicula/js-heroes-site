@@ -71,20 +71,21 @@ $(function () {
         return `
         <div id="speaker-info" class="modal fade" role="dialog">
             <div class="modal-dialog"> 
+                <div class="modal-close-button" data-dismiss="modal" aria-label="Close"><i class="fa fa-window-close-o"></i></div>
                 <!-- Modal content-->
                 <div class="modal-content padding_4x4_40">
                 <div class="speaker-sec">
-                    <div class='speaker-aside'>
+                    <div class="speaker-aside">
                     <div class="speaker-info-box text-center border-box">
                         <div class="spearker-img"> <img src="${speaker.img}" alt="" class="img-responsive center-block"> </div>
                     </div>
                     <div>
                         <h5 class="speaker-name"><a href="${speaker.social.website}">${speaker.name}</a></h5>
-                        <h6 class='speaker-role'>${speaker.position}</h6>
+                        <h6 class="speaker-role">${speaker.position}</h6>
                         <div class="social-links"> 
-                            <a href="${speaker.social.twitter}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> 
-                            <a href="${speaker.social.github}"><i class="fa fa-github-square" aria-hidden="true"></i></a> 
-                            <a href="${speaker.social.website}"><i class="fa fa-external-link-square" aria-hidden="true"></i></a> 
+                            <a href="${speaker.social.twitter}"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                            <a href="${speaker.social.github}"><i class="fa fa-github" aria-hidden="true"></i></a> 
+                            <a href="${speaker.social.website}"><i class="fa fa-link" aria-hidden="true"></i></a> 
                         </div>
                     </div>
                     </div>
