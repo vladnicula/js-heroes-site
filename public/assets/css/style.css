@@ -1721,6 +1721,7 @@ label.error.wobble-error {
 
 #speaker-info {
 	text-align: start;
+	z-index: 99999;
 }
 
 #speaker-info .speaker-aside {
@@ -1797,14 +1798,9 @@ label.error.wobble-error {
 	cursor: pointer
 }
 
-
 /*=================
  Bootstarp overwrite
 ====================*/
-
-.modal-dialog {
-	z-index: 9999;
-}
 
 .modal-content {
 	border-radius: 0;
