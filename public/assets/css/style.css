@@ -1746,7 +1746,9 @@ label.error.wobble-error {
 
 #speaker-info .speaker-role {
 	margin-bottom: 10px;
-	font-weight: 500;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.7
 }
 
 #speaker-info .speaker-info-box {
