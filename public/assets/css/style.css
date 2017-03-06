@@ -81,7 +81,7 @@ h4 {
 }
 h5 {
 	font-size:28px;
-	font-weight:500px;
+	font-weight:500;
 	line-height:32px;
 }
 h6 {
@@ -231,7 +231,7 @@ table th, table td {
 	background:#c51514
 }
 .btn.btn-danger {
-	background:#rgba(222, 48, 47, 1) !important;
+	background: rgba(222, 48, 47, 1) !important;
 }
 .btn.btn-lg:after {
 	font-size:44px;
@@ -405,7 +405,7 @@ textarea {
 ---------------------------------------------------*/
 
 .dark-overlay {
-  background: hsla(0, 0%, 0%, 0.7) none repeat scroll 0 0;
+  background: hsla(0, 0%, 0%, 0.6) none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -480,7 +480,7 @@ header.nav-stacked {
 	transition:all 0.3s linear;
 }
 header.nav-stacked.affix {
-	padding:30px 0px;
+	padding: 10px 0 10px 0;
 	background:#000;
 	box-shadow:3px 0px 8px rgba(0,0,0,0.25);
 }
@@ -488,7 +488,7 @@ nav.navigation {
   background: hsl(0, 0%, 0%) none repeat scroll 0 0;
   left: 0;
   min-height: 100px;
-  padding: 24px 0;
+  padding: 29px 0;
   position: fixed;
   right: 0;
   top: -400%;
@@ -576,7 +576,7 @@ nav.navigation ul li .dropdown-menu li {
 
 #banner {
 	/*background-image:url(../images/1920x900.jpg);	*/
-	background-image:url(../images/header-image.jpg);	
+	background-image:url(../images/header-background.jpg);
 }
 .banner-content h1 {
 	font-size:90px;
@@ -596,6 +596,12 @@ nav.navigation ul li .dropdown-menu li {
 	color:#fff;
 	line-height:auto !important;
 	margin-top:20px;
+}
+.banner-fixed h1 {
+	margin: 0 auto 5px;
+}
+.banner-fixed h2 {
+	color: #fff;
 }
 
 
@@ -812,7 +818,7 @@ audio, canvas, progress, video {
 }
 .width50-left {
   float: left;
-  max-width: 510px;
+  max-width: 626px;
   padding-left: 60px !important;
   flex-direction: column;
 }
@@ -1324,7 +1330,7 @@ footer {
 
 .footer-social-tab {
   margin-bottom: 80px;
-  margin-top: 145px;
+  /*margin-top: 145px;*/
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -1447,7 +1453,7 @@ label.error.wobble-error {
 	font-size:13px;
 	margin:0px;	
 	font-weight:400;
-	color:#de302f;s
+	color:#de302f;
 }
 
 /*===========================================
@@ -2729,4 +2735,14 @@ h2 {
 }
 
 
+}
+
+.white-bg {
+	background:#fff;
+}
+.rocket-bg-img {
+	background-image: url(../images/apply_as_a_speaker.png)
+}
+.hide {
+	display: none;
 }

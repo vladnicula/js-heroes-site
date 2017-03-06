@@ -31,7 +31,8 @@ $(function(e) {
 		Navigation
 	-------------------------------------------------------------------------------*/
 	$('#menu-toggle-bar').on('click', function(e) {
-		   $("#navigation").toggleClass("shownav");
+        $('.nav-stacked .container').toggleClass('hide')
+	 	  $("#navigation").toggleClass("shownav");
 	});
 	$('#menu-toggle-close').on('click', function(e) {
 		   $("#navigation").removeClass("shownav");
