@@ -24,6 +24,7 @@ $(function(e) {
 	$('.navbar-nav a ').on('click', function(){
 		if ( $('body').width() < 768 ) {
 			$('#navigation').removeClass('shownav')
+            $('.nav-stacked .container').toggleClass('hide')
 		}
 	});
 	
@@ -31,7 +32,7 @@ $(function(e) {
 		Navigation
 	-------------------------------------------------------------------------------*/
 	$('#menu-toggle-bar').on('click', function(e) {
-        $('.nav-stacked .container').toggleClass('hide')
+        $('.nav-stacked .container').toggleClass('hide');
 	 	  $("#navigation").toggleClass("shownav");
 	});
 	$('#menu-toggle-close').on('click', function(e) {
@@ -91,7 +92,7 @@ $('.conf-close').on('click', function(e) {
 	-------------------------------------------------------------------*/
  var top = $('#back-top');
 	top .hide();
-	 
+
 		$(window).scroll(function () {
 			if ($(this).scrollTop() > 100) {
 				top .fadeIn();
@@ -105,13 +106,13 @@ $('.conf-close').on('click', function(e) {
 			}, 800);
 			return false;
 		});
-	 
- 
- 
+
+
+
  /*-------------------------------------------------------------------------------
   Google map
 	-------------------------------------------------------------------------------*/
- 	
+
 	if ($('#js-gmap').length > 0){
 		var map;
 		map = new GMaps({
@@ -139,15 +140,15 @@ $('.conf-close').on('click', function(e) {
 			horizontalAlign: 'center',
 			backgroundColor: '#d3cfcf',
 			infoWindow:{
-				content: '<div class="map-info">PO Box 1025MNO Collins Street<br>West Victoria 8007 Australia</div>'
+				content: '<div class="map-info">Trifoiului Street number 3, Cluj-Napoca, Romania<br>Grand Hotel Italia</div>'
 			}
 		});
 	}
- 
+
  /*-------------------------------------------------------------------------------
   Ajax Form
 	-------------------------------------------------------------------------------*/
- 
+
 	if ($('#js-ajax-form').length) {
 		$('#js-ajax-form').each(function(){
 			$(this).validate({
@@ -161,7 +162,7 @@ $('.conf-close').on('click', function(e) {
 							$('.modal').modal('hide');
 							$('#success').modal('show');
 						},
-	
+
 						error: function(){
 							$('.modal').modal('hide');
 							$('#error').modal('show');
@@ -174,15 +175,15 @@ $('.conf-close').on('click', function(e) {
 /*-------------------------------------------------------------------------------
   Paypal Form
 	-------------------------------------------------------------------------------*/
-	
+
 	if ($('#paypal-form').length) {
 		$('#paypal-form').each(function(){
 			$(this).validate({
 				errorClass: 'error wobble-error',
 			});
 		});
-	}	
- 
+	}
+
 });
 
 })(jQuery);
