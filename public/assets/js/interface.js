@@ -117,9 +117,9 @@ $('.conf-close').on('click', function(e) {
 		var map;
 		map = new GMaps({
 			el: '#js-gmap',
-			lat: 46.7524816,
-			lng: 23.6036848,
-			scrollwheel:true,
+			lat: 46.752870,
+			lng: 23.605845,
+			scrollwheel:false,
 			zoom: 16,
 			zoomControl : false,
 			panControl : false,
@@ -132,8 +132,8 @@ $('.conf-close').on('click', function(e) {
 		var infoWindow = new google.maps.InfoWindow({
 		});
 		map.addMarker({
-			lat: -23.976215,
-			lng:133.769531,
+            lat: 46.752870,
+            lng: 23.605845,
 			icon: image,
 			animation: google.maps.Animation.DROP,
 			verticalAlign: 'bottom',

@@ -8,7 +8,7 @@ $(function () {
 
             position: 'Web Apps Team Lead </br>eXelate',
             
-            descriptionHtml: '<p>Liran is leading the core team for the MEAN.js JavaScript framework. He recently published Essential Node.js Security and authored other books in Agile, and Web development. Passionate about Open Source since an early age, he is continuously contributing to many projects on GitHub in Node.js, JavaScript, Docker, and Security.</p><p>Being an avid supporter and contributor to the open source movement, in 2007 Liran has redefined network RADIUS management by establishing daloRADIUS, a world-recognized and industry-leading <br/><a href="http://www.daloradius.com">open source project</a>.</p>',
+            descriptionHtml: '<p>Liran is leading the core team for the MEAN.js JavaScript framework. He recently published Essential Node.js Security and authored other books in Agile, and Web development. Passionate about Open Source since an early age, he is continuously contributing to many projects on GitHub in Node.js, JavaScript, Docker, and Security.</p><p>Being an avid supporter and contributor to the open source movement, in 2007 Liran has redefined network RADIUS management by establishing daloRADIUS, a world-recognized and industry-leading <br/><a href="http://www.daloradius.com" class="text-blue" target="_blank">open source project</a>.</p>',
 
             social : {
                 twitter : "https://twitter.com/liran_tal",
@@ -40,7 +40,7 @@ $(function () {
 
             position: 'Senior JavaScript Developer</br>Songkick',
             
-            descriptionHtml: '<p>Jack is a Senior JavaScript Developer at Songkick in London where he spends most of his time writing or talking about JavaScript, React and Elm.</p>',
+            descriptionHtml: '<p>Jack is a Senior JavaScript Developer at Songkick working on React and Angular applications where he splits his time between new features, refactors and work on optimising builds. If he’s not doing that he’s usually obsessing over his Vim configuration or writing for his blog, <a href="http://javascriptplayground.com/" class="text-blue" target="_blank">JavaScript Playground</a>.</p><p> He’s the author of "Beginning jQuery" (Apress, 2012) and speaks at conferences on all things front-end, including build tools, frameworks and even new languages like Elm.</p>',
 
             social : {
                 twitter : "https://twitter.com/Jack_Franklin",
@@ -80,7 +80,7 @@ $(function () {
                         <div class="spearker-img"> <img src="${speaker.img}" alt="" class="img-responsive center-block"> </div>
                     </div>
                     <div>
-                        <h5 class="speaker-name"><a href="${speaker.social.website}">${speaker.name}</a></h5>
+                        <h5 class="speaker-name"><a href="${speaker.social.website}" class="text-blue">${speaker.name}</a></h5>
                         <h6 class="speaker-role">${speaker.position}</h6>
                         <div class="social-links"> 
                             <a href="${speaker.social.twitter}"><i class="fa fa-twitter" aria-hidden="true"></i></a> 

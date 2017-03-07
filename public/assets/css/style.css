@@ -2750,8 +2750,53 @@ h2 {
 	background:#fff;
 }
 .rocket-bg-img {
-	background-image: url(../images/apply_as_a_speaker.png)
+	background-image: url('../images/apply_as_a_speaker.png')
 }
 .hide {
 	display: none;
+}
+
+.nav-stacked.affix-top div.logo img {
+	transition: width 0.5s;
+	width: 76%;
+}
+.nav-stacked.affix div.logo img {
+	transition: width 0.5s;
+	width: 50%;
+}
+.nav-stacked div.logo img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*Custom blue*/
+.blue-bg {
+	background: #0098FF !important;
+	fill: #0098FF !important;
+}
+.text-blue, .text-blue:hover {
+	color: #0098FF !important;
+}
+.day-time-m li:hover {
+	background: #0098FF !important;
+	fill: #0098FF !important;
+	border-color: #0098FF !important;
+}
+.day-time-m li.active {
+	border-color: #0098FF !important;
+	background: #0098FF !important;
+}
+.day-time-m li.active::after {
+	border-color: #0098FF transparent transparent !important;
+}
+nav.navigation ul li.active a, nav.navigation ul li a:hover {
+	color: #0098FF !important;
+	fill: #0098FF !important;
+}
+.speaker-hover {
+	background: rgba(0, 152, 255, 0.80) none repeat scroll 0 0 !important;
+}
+.footer-social-tab a:hover {
+	border-color: #0098FF !important;
 }
