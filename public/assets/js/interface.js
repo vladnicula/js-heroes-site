@@ -125,7 +125,7 @@ $('.conf-close').on('click', function(e) {
 			panControl : false,
 			streetViewControl : false,
 			mapTypeControl: false,
-			overviewMapControl: false,
+			overviewMapControl: true,
 			clickable: true
 		});
 		var image = 'assets/images/map-label.png';
