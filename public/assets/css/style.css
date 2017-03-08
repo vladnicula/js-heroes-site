@@ -2256,7 +2256,7 @@ h5 {
 	font-size:24px;
 }
 nav.navigation ul.nav.navbar-nav {
-	height:400px;
+	/*height:400px;*/
 	overflow-Y:auto;
 }
 nav.navigation ul li {
@@ -2762,7 +2762,7 @@ h2 {
 }
 .nav-stacked.affix div.logo img {
 	transition: width 0.5s;
-	width: 50%;
+	width: 35%;
 }
 .nav-stacked div.logo img {
 	display: block;
@@ -2799,4 +2799,14 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .footer-social-tab a:hover {
 	border-color: #0098FF !important;
+}
+
+.nav-stacked .wrapper {
+	display: table;
+	width: 100%;
+}
+.nav-stacked .wrapper > div {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
 }
