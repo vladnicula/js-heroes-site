@@ -121,11 +121,11 @@ $('.conf-close').on('click', function(e) {
 			lng: 23.605845,
 			scrollwheel:false,
 			zoom: 16,
-			zoomControl : false,
+			zoomControl : true,
 			panControl : false,
 			streetViewControl : false,
 			mapTypeControl: false,
-			overviewMapControl: true,
+			overviewMapControl: false,
 			clickable: true
 		});
 		var image = 'assets/images/map-label.png';
