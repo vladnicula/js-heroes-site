@@ -136,7 +136,7 @@ $(function () {
 
             position: 'Engineering Manager<br/>Conde Nast',
 
-            descriptionHtml: '<p>Gautam is the Engineering Manager at <a href="http://www.cntraveler.com/">Conde Nast Traveler</a>, an organizer of New York JavaScript where he runs NodeSchool NYC, and a self-published author at <a href="http://fullstackjs.com/">FullStack JavaScript</a>.</p>',
+            descriptionHtml: '<p>Gautam is the Engineering Manager at <a href="http://www.cntraveler.com/" target="_blank">Conde Nast Traveler</a>, an organizer of New York JavaScript where he runs NodeSchool NYC, and a self-published author at <a href="http://fullstackjs.com/" target="_blank">FullStack JavaScript</a>.</p>',
 
             social : {
                 twitter : "https://twitter.com/gautam",
@@ -175,12 +175,12 @@ $(function () {
                         <div class="spearker-img"> <img src="${speaker.img}" alt="" class="img-responsive center-block"> </div>
                     </div>
                     <div>
-                        <h5 class="speaker-name"><a href="${speaker.social.website}" class="text-blue">${speaker.name}</a></h5>
+                        <h5 class="speaker-name"><a href="${speaker.social.website}" class="text-blue" target="_blank">${speaker.name}</a></h5>
                         <h6 class="speaker-role">${speaker.position}</h6>
                         <div class="social-links"> 
-                            <a href="${speaker.social.twitter}"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                            <a href="${speaker.social.github}"><i class="fa fa-github" aria-hidden="true"></i></a> 
-                            <a href="${speaker.social.website}"><i class="fa fa-link" aria-hidden="true"></i></a> 
+                            <a href="${speaker.social.twitter}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                            <a href="${speaker.social.github}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a> 
+                            <a href="${speaker.social.website}" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a> 
                         </div>
                     </div>
                     </div>
