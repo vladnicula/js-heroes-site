@@ -140,7 +140,7 @@ $('.conf-close').on('click', function(e) {
 			horizontalAlign: 'center',
 			backgroundColor: '#d3cfcf',
 			infoWindow:{
-				content: '<div class="map-info">Trifoiului Street number 3, Cluj-Napoca, Romania<br>Grand Hotel Italia</div>'
+				content: '<div class="map-info"><span>Trifoiului Street number 3, Cluj-Napoca, Romania<br><b>Grand Hotel Italia</b></span></div>'
 			}
 		});
 	}

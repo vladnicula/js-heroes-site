@@ -2845,3 +2845,6 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 .sponsors-list ul li a img {
 	max-width: 250px;
 }
+.g-map-m .map-info span {
+	color: #000;
+}
