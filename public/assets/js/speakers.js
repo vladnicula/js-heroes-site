@@ -7,7 +7,7 @@ $(function () {
             img : 'assets/liran.png',
 
             position: 'Web Apps Team Lead <br/>eXelate',
-            
+
             descriptionHtml: '<p>Liran is leading the core team for the MEAN.js JavaScript framework. He recently published Essential Node.js Security and authored other books in Agile, and Web development. Passionate about Open Source since an early age, he is continuously contributing to many projects on GitHub in Node.js, JavaScript, Docker, and Security.</p><p>Being an avid supporter and contributor to the open source movement, in 2007 Liran has redefined network RADIUS management by establishing daloRADIUS, a world-recognized and industry-leading <br/><a href="http://www.daloradius.com" class="text-blue" target="_blank">open source project</a>.</p>',
 
             social : {
@@ -21,9 +21,9 @@ $(function () {
             name: 'Mark Dalgleish',
 
             img : 'assets/mark.jpg',
-            
+
             position: 'DesignOps Lead<br/>SEEK',
-            
+
             descriptionHtml: '<p>Mark Dalgleish is the co-creator of CSS Modules, lead organiser of MelbJS, and DesignOps Lead at SEEK, Australia\'s leading job site. Having got his start with HTML and UI design at a young age, Mark has since developed a love of open source and software engineering but always as a means to creating elegant, usable experiences.</p>',
 
             social : {
@@ -39,7 +39,7 @@ $(function () {
             img : 'assets/jack.jpg',
 
             position: 'Senior JavaScript Developer<br/>Songkick',
-            
+
             descriptionHtml: '<p>Jack is a Senior JavaScript Developer at Songkick working on React and Angular applications where he splits his time between new features, refactors and work on optimising builds. If he’s not doing that he’s usually obsessing over his Vim configuration or writing for his blog, <a href="http://javascriptplayground.com/" class="text-blue" target="_blank">JavaScript Playground</a>.</p><p> He’s the author of "Beginning jQuery" (Apress, 2012) and speaks at conferences on all things front-end, including build tools, frameworks and even new languages like Elm.</p>',
 
             social : {
@@ -55,7 +55,7 @@ $(function () {
             img : 'assets/martin.jpg',
 
             position: 'Senior software engineer<br/>Archilogic',
-            
+
             descriptionHtml: '<p>Open web &amp; open source cheerleader, Google Developer Expert for web technologies, W3C contributor, O\'Reilly Workshop instructor, book author and a good guy with a loud laugh. </p>',
 
             social : {
@@ -118,14 +118,14 @@ $(function () {
 
             img : 'assets/cassi.jpeg',
 
-            position: 'Module Lead Developer<br/>3Pillar Global',
+            position: 'Technical Lead<br/>3Pillar Global',
 
-            descriptionHtml: '<p>Cassi Lup is a Lead Developer with 3Pillar Global and a co-organizer of tim.js (probably the 1st JS Meetup in Romania). He has a passion for the web and tries to look at it with a creative, yet critical eye. He has a passion for all things JS, from trainings and workshops all the way to solving real-life problems with code. When not online, he loves hanging out with his wife and two kids.</p>',
+            descriptionHtml: '<p>Cassi Lup is a Lead Developer with 3Pillar Global and a co-organizer of tim.js (probably the 1st JS Meetup in Romania). He has a passion for the web and tries to look at it with a creative, yet critical eye. He has a knack for all things JS, from trainings and workshops all the way to solving real-life problems with code. When not online, he loves hanging out with his wife and two kids.</p>',
 
             social : {
                 twitter : "https://twitter.com/cassilup",
                 github : "https://github.com/cassilup",
-                website : "#"
+                website : "http://ideastostring.com"
             }
         },
 
@@ -165,7 +165,7 @@ $(function () {
     const speakerInfoModalTempalte = function (speaker) {
         return `
         <div id="speaker-info" class="modal fade" role="dialog">
-            <div class="modal-dialog"> 
+            <div class="modal-dialog">
                 <div class="modal-close-button" data-dismiss="modal" aria-label="Close"><i class="fa fa-window-close-o"></i></div>
                 <!-- Modal content-->
                 <div class="modal-content padding_4x4_40">
@@ -177,10 +177,10 @@ $(function () {
                     <div>
                         <h5 class="speaker-name"><a href="${speaker.social.website}" class="text-blue">${speaker.name}</a></h5>
                         <h6 class="speaker-role">${speaker.position}</h6>
-                        <div class="social-links"> 
-                            <a href="${speaker.social.twitter}"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                            <a href="${speaker.social.github}"><i class="fa fa-github" aria-hidden="true"></i></a> 
-                            <a href="${speaker.social.website}"><i class="fa fa-link" aria-hidden="true"></i></a> 
+                        <div class="social-links">
+                            <a href="${speaker.social.twitter}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="${speaker.social.github}"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="${speaker.social.website}"><i class="fa fa-link" aria-hidden="true"></i></a>
                         </div>
                     </div>
                     </div>
@@ -198,10 +198,10 @@ $(function () {
     $('#speakers').on('click', '.speaker-hover', function (event) {
         var target = $(event.target).closest('.speaker-info-box').find('.spearker-img')
         var speakerId = target[0].dataset && target[0].dataset.speaker
-        var content 
+        var content
 
         if ( speakerId ) {
-            content = $(speakerInfoModalTempalte(speakers[speakerId]))    
+            content = $(speakerInfoModalTempalte(speakers[speakerId]))
             content.modal().on('hide.bs.modal', function () {
                 content.remove()
             })
