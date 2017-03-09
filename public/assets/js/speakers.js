@@ -143,6 +143,22 @@ $(function () {
                 github : "https://github.com/gautamarora",
                 website : "http://www.gautamarora.com/"
             }
+        },
+
+        soon : {
+            name: 'TBA',
+
+            img : 'assets/images/soon.png',
+
+            position: '',
+
+            descriptionHtml: '<p></p><br/>',
+
+            social : {
+                twitter : "#",
+                github : "#",
+                website : "http://www.jsheroes.io/"
+            }
         }
     };
 
