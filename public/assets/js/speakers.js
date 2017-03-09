@@ -29,7 +29,7 @@ $(function () {
             social : {
                 twitter : "https://twitter.com/markdalgleish",
                 github : "https://github.com/markdalgleish",
-                website : "http://markdalgleish.com"
+                website : "#"
             }
         },
 
@@ -104,7 +104,7 @@ $(function () {
 
             position: 'Consultant, Javascript Engineer',
 
-            descriptionHtml: '<p>Xavier is passionate about hacking stuff related to React, GraphQL & Meteor. He’s a TelescopeJS core team member and he also builds modern webapps to help SaaS businesses become more profitable. He’s a backpacker drinking coffees thanks to a camping stove.</p>',
+            descriptionHtml: "<p>I'm passionate about open-source, and I build apps for early-stage startups as an independent developer for a living. I'm also the maintainer of two Apollo-related open-source projects: the Meteor's Apollo integration & Telescope, one of the biggest Meteor open-source app running with React & GraphQL.</p>",
 
             social : {
                 twitter : "https://twitter.com/xav_cz",
@@ -118,9 +118,9 @@ $(function () {
 
             img : 'assets/cassi.jpeg',
 
-            position: 'Module Lead Developer<br/>3Pillar Global',
+            position: 'Technical Lead Developer<br/>3Pillar Global',
 
-            descriptionHtml: '<p>Cassi Lup is a Lead Developer with 3Pillar Global and a co-organizer of tim.js (probably the 1st JS Meetup in Romania). He has a passion for the web and tries to look at it with a creative, yet critical eye. He has a passion for all things JS, from trainings and workshops all the way to solving real-life problems with code. When not online, he loves hanging out with his wife and two kids.</p>',
+            descriptionHtml: '<p>Cassi Lup is a Lead Developer with 3Pillar Global and a co-organizer of tim.js (probably the 1st JS Meetup in Romania). He has a passion for the web and tries to look at it with a creative, yet critical eye. He has a knack for all things JS, from trainings and workshops all the way to solving real-life problems with code. When not online, he loves hanging out with his wife and two kids.</p>',
 
             social : {
                 twitter : "https://twitter.com/cassilup",
