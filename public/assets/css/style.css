@@ -414,6 +414,9 @@ textarea {
   width: 100%;
   z-index: inherit;
 }
+.darker {
+	background: hsla(0, 0%, 0%, 0.78) none repeat scroll 0 0;
+}
 .red-overlay {
 	background:#de302f none repeat scroll 0 0;
 	content:"";
@@ -552,10 +555,13 @@ nav.navigation ul li.dropdown:hover ul.dropdown-menu {
 }
 
 @media (min-width:768px) and (max-width:991px) {
-nav.navigation ul li .dropdown-menu li {
-  margin: 10px auto;
-}
+	nav.navigation ul li .dropdown-menu li {
+		margin: 10px auto;
+	}
 
+	#navigation .col-xs-12.col-md-2 .logo img {
+		display: none !important;
+	}
 }
 
 
@@ -811,6 +817,7 @@ audio, canvas, progress, video {
 .vc_column-inner {
   display: block;
   width: 100%;
+  z-index: 2;
 }
 .width50-right {
   float: right;
@@ -2202,6 +2209,9 @@ h5 {
 
 
 @media (max-width:767px) {
+#navigation .col-xs-12.col-md-2 .logo img {
+	display: none !important;
+}
 	
 #speaker-info .speaker-sec {
 	flex-flow: column
@@ -2752,17 +2762,20 @@ h2 {
 .rocket-bg-img {
 	background-image: url('../images/apply_as_a_speaker.png')
 }
+.meetup-bg-img {
+	background-image: url('../images/apply_as_a_participant.png')
+}
 .hide {
 	display: none;
 }
 
 .nav-stacked.affix-top div.logo img {
 	transition: width 0.5s;
-	width: 76%;
+	width: 100%;
 }
 .nav-stacked.affix div.logo img {
 	transition: width 0.5s;
-	width: 35%;
+	width: 80%;
 }
 .nav-stacked div.logo img {
 	display: block;
@@ -2815,4 +2828,17 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	width: 100%;
 	height: 100%;
 	top: 0;
+}
+#speakers .row .col-xs-12.col-sm-6.col-md-4.col-lg-3:nth-child(3) .speaker-info h6{
+	display: inline;
+}
+.speaker-aside .social-links a[href="#"] {
+	display: none!important;
+}
+#navigation .col-xs-12.col-md-2 .logo a {
+	display: table;
+}
+#navigation .col-xs-12.col-md-2 .logo img {
+	width: 80%;
+	display: table-cell;
 }

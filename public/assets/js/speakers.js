@@ -6,7 +6,7 @@ $(function () {
 
             img : 'assets/liran.png',
 
-            position: 'Web Apps Team Lead </br>eXelate',
+            position: 'Web Apps Team Lead <br/>eXelate',
             
             descriptionHtml: '<p>Liran is leading the core team for the MEAN.js JavaScript framework. He recently published Essential Node.js Security and authored other books in Agile, and Web development. Passionate about Open Source since an early age, he is continuously contributing to many projects on GitHub in Node.js, JavaScript, Docker, and Security.</p><p>Being an avid supporter and contributor to the open source movement, in 2007 Liran has redefined network RADIUS management by establishing daloRADIUS, a world-recognized and industry-leading <br/><a href="http://www.daloradius.com" class="text-blue" target="_blank">open source project</a>.</p>',
 
@@ -22,7 +22,7 @@ $(function () {
 
             img : 'assets/mark.jpg',
             
-            position: 'DesignOps Lead</br>SEEK',
+            position: 'DesignOps Lead<br/>SEEK',
             
             descriptionHtml: '<p>Mark Dalgleish is the co-creator of CSS Modules, lead organiser of MelbJS, and DesignOps Lead at SEEK, Australia\'s leading job site. Having got his start with HTML and UI design at a young age, Mark has since developed a love of open source and software engineering but always as a means to creating elegant, usable experiences.</p>',
 
@@ -38,7 +38,7 @@ $(function () {
 
             img : 'assets/jack.jpg',
 
-            position: 'Senior JavaScript Developer</br>Songkick',
+            position: 'Senior JavaScript Developer<br/>Songkick',
             
             descriptionHtml: '<p>Jack is a Senior JavaScript Developer at Songkick working on React and Angular applications where he splits his time between new features, refactors and work on optimising builds. If he’s not doing that he’s usually obsessing over his Vim configuration or writing for his blog, <a href="http://javascriptplayground.com/" class="text-blue" target="_blank">JavaScript Playground</a>.</p><p> He’s the author of "Beginning jQuery" (Apress, 2012) and speaks at conferences on all things front-end, including build tools, frameworks and even new languages like Elm.</p>',
 
@@ -54,7 +54,7 @@ $(function () {
 
             img : 'assets/martin.jpg',
 
-            position: 'Senior software engineer</br>Archilogic',
+            position: 'Senior software engineer<br/>Archilogic',
             
             descriptionHtml: '<p>Open web &amp; open source cheerleader, Google Developer Expert for web technologies, W3C contributor, O\'Reilly Workshop instructor, book author and a good guy with a loud laugh. </p>',
 
@@ -65,7 +65,86 @@ $(function () {
             }
         },
 
-    }
+        calinescu : {
+            name: 'Dan Calinescu',
+
+            img : 'assets/calinescu.jpg',
+
+            position: 'Knowledge Manager<br/>Evozon',
+
+            descriptionHtml: '<p>Developer, writer, educator and father, on a mission to contribute to a future where technology serves humanity - not the other way around. Expert diaper-changer with a ridiculous passion for Open Source.</p>',
+
+            social : {
+                twitter : "https://twitter.com/idancali",
+                github : "https://github.com/idancali",
+                website : "https://medium.com/@idancali"
+            }
+        },
+
+        filip : {
+            name: 'Filip Bech-Larsen',
+
+            img : 'assets/filip.jpeg',
+
+            position: 'Frontend Manager<br/>IMPACT',
+
+            descriptionHtml: '<p>Filip is a frontend developer from Denmark, focusing on delivering great user-experiences to the end-user – often using Angular. He is the Frontend Manager at IMPACT, delivering large-scale commerce-products to well-known business and consumer brands. Filip is passionate about the web, and cares not only about clean and efficient code, but also about accessibility and performance, in order for the web to be available and accessible for everybody - without sacrificing great design and UX. In his local city of Aarhus, Denmark, Filip initiated an angular user group that has grown to become the biggest in the country. Filip is an active community member, and an experienced public speaker, loving to share knowledge and to mentor fellow developers and entrepreneurs. Filip lives in Aarhus, with his wife and two boys, and fluently speaks English and Danish.</p>',
+
+            social : {
+                twitter : "https://twitter.com/filipbech",
+                github : "https://github.com/filipbech",
+                website : "https://filipbech.github.io"
+            }
+        },
+
+        xavier : {
+            name: 'Xavier Cazalot',
+
+            img : 'assets/xavier.jpeg',
+
+            position: 'Consultant, Javascript Engineer',
+
+            descriptionHtml: '<p>Xavier is passionate about hacking stuff related to React, GraphQL & Meteor. He’s a TelescopeJS core team member and he also builds modern webapps to help SaaS businesses become more profitable. He’s a backpacker drinking coffees thanks to a camping stove.</p>',
+
+            social : {
+                twitter : "https://twitter.com/xav_cz",
+                github : "https://github.com/xavcz",
+                website : "http://xav.cz"
+            }
+        },
+
+        cassi : {
+            name: 'Cassi Lup',
+
+            img : 'assets/cassi.jpeg',
+
+            position: 'Module Lead Developer<br/>3Pillar Global',
+
+            descriptionHtml: '<p>Cassi Lup is a Lead Developer with 3Pillar Global and a co-organizer of tim.js (probably the 1st JS Meetup in Romania). He has a passion for the web and tries to look at it with a creative, yet critical eye. He has a passion for all things JS, from trainings and workshops all the way to solving real-life problems with code. When not online, he loves hanging out with his wife and two kids.</p>',
+
+            social : {
+                twitter : "https://twitter.com/cassilup",
+                github : "https://github.com/cassilup",
+                website : "#"
+            }
+        },
+
+        gautam : {
+            name: 'Gautam Arora',
+
+            img : 'assets/gautam.jpeg',
+
+            position: 'Engineering Manager<br/>Conde Nast',
+
+            descriptionHtml: '<p>Gautam is the Engineering Manager at <a href="http://www.cntraveler.com/">Conde Nast Traveler</a>, an organizer of New York JavaScript where he runs NodeSchool NYC, and a self-published author at <a href="http://fullstackjs.com/">FullStack JavaScript</a>.</p>',
+
+            social : {
+                twitter : "https://twitter.com/gautam",
+                github : "https://github.com/gautamarora",
+                website : "http://www.gautamarora.com/"
+            }
+        }
+    };
 
     const speakerInfoModalTempalte = function (speaker) {
         return `
