@@ -2842,3 +2842,6 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	width: 80%;
 	display: table-cell;
 }
+.sponsors-list ul li a img {
+	max-width: 250px;
+}
