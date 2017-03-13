@@ -128,7 +128,7 @@ $('.conf-close').on('click', function(e) {
 			overviewMapControl: false,
 			clickable: true
 		});
-		var image = 'assets/images/map-label.png';
+		var image = 'assets/images/js_heroes_pin.png';
 		var infoWindow = new google.maps.InfoWindow({
 		});
 		map.addMarker({
