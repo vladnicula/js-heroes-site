@@ -116,7 +116,7 @@ $(function () {
         cassi : {
             name: 'Cassi Lup',
 
-            img : 'assets/cassi.jpeg',
+            img : 'assets/cassi.jpg',
 
             position: 'Technical Lead Developer<br/>3Pillar Global',
 
