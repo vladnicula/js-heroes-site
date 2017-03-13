@@ -84,7 +84,7 @@ $(function () {
         filip : {
             name: 'Filip Bech-Larsen',
 
-            img : 'assets/filip.jpeg',
+            img : 'assets/filip.jpg',
 
             position: 'Frontend Manager<br/>IMPACT',
 
