@@ -587,6 +587,12 @@ nav.navigation ul li.dropdown:hover ul.dropdown-menu {
 	/*background-image:url(../images/1920x900.jpg);	*/
 	background-image:url(../images/header-background.jpg);
 }
+#banner-code-conduct {
+	background-image:url(../images/header-background-shorter.jpg);
+}
+#banner-code-conduct .banner-fixed {
+	height: 50vh;
+}
 .banner-content h1 {
 	font-size:90px;
 	color:#fff;
@@ -1385,7 +1391,9 @@ footer {
   font-size: 16px;
 }
 
-
+#code-of-conduct footer .footer-social-tab .fa {
+	padding-top: 25%;
+}
 /*================
 	15. Back to top
 =========================*/
@@ -2209,6 +2217,9 @@ h5 {
 
 
 @media (max-width:767px) {
+.dark-banner-overlay h2 {
+	margin-top: 10px!important;
+}
 #navigation .col-xs-12.col-md-2 .logo img {
 	display: none !important;
 }
@@ -2847,4 +2858,32 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .g-map-m .map-info span {
 	color: #000;
+}
+.footer-resources ul li {
+	list-style-type: none;
+	text-align: left;
+}
+.footer-resources ul {
+	border-right: 1px dotted darkgray;
+}
+.dark-banner-overlay {
+	background: hsla(0,0%,0%,.6) none repeat scroll 0 0;
+	content: "";
+	height: 30%;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: inherit;
+}
+#code-of-conduct .about-content p:first-child {
+	margin-top: -50px;
+}
+.white-underline-text {
+	color: #fff;
+	text-decoration: underline;
+}
+.dark-banner-overlay h2 {
+	color: #fff;
+	margin-top: 45px;
 }
