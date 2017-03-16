@@ -33,21 +33,21 @@ $(function () {
             }
         },
 
-        jack : {
-            name: 'Jack Franklin',
-
-            img : 'assets/jack.jpg',
-
-            position: 'Senior JavaScript Developer<br/>Songkick',
-            
-            descriptionHtml: '<p>Jack is a Senior JavaScript Developer at Songkick working on React and Angular applications where he splits his time between new features, refactors and work on optimising builds. If he’s not doing that he’s usually obsessing over his Vim configuration or writing for his blog, <a href="http://javascriptplayground.com/" class="text-blue" target="_blank">JavaScript Playground</a>.</p><p> He’s the author of "Beginning jQuery" (Apress, 2012) and speaks at conferences on all things front-end, including build tools, frameworks and even new languages like Elm.</p>',
-
-            social : {
-                twitter : "https://twitter.com/Jack_Franklin",
-                github : "https://github.com/jackfranklin",
-                website : "http://www.javascriptplayground.com"
-            }
-        },
+        // jack : {
+        //     name: 'Jack Franklin',
+        //
+        //     img : 'assets/jack.jpg',
+        //
+        //     position: 'Senior JavaScript Developer<br/>Songkick',
+        //
+        //     descriptionHtml: '<p>Jack is a Senior JavaScript Developer at Songkick working on React and Angular applications where he splits his time between new features, refactors and work on optimising builds. If he’s not doing that he’s usually obsessing over his Vim configuration or writing for his blog, <a href="http://javascriptplayground.com/" class="text-blue" target="_blank">JavaScript Playground</a>.</p><p> He’s the author of "Beginning jQuery" (Apress, 2012) and speaks at conferences on all things front-end, including build tools, frameworks and even new languages like Elm.</p>',
+        //
+        //     social : {
+        //         twitter : "https://twitter.com/Jack_Franklin",
+        //         github : "https://github.com/jackfranklin",
+        //         website : "http://www.javascriptplayground.com"
+        //     }
+        // },
 
         martin : {
             name: 'Martin Splitt',
