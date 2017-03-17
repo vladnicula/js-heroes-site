@@ -1284,7 +1284,7 @@ section#faq {
 	overflow:hidden;
 	text-align:center;
 }
-.sponsors-list > ul {
+.sponsors-list > ul{
 	margin:0 auto;
 	padding:0;
 }
@@ -2856,6 +2856,11 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 .sponsors-list ul li a img {
 	max-width: 250px;
 }
+.community-list a img {
+	max-width: 100%;
+	width: 180px;
+	margin-bottom: 15px;
+}
 .g-map-m .map-info span {
 	color: #000;
 }
@@ -2886,4 +2891,10 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 .dark-banner-overlay h2 {
 	color: #fff;
 	margin-top: 45px;
+}
+.border-right {
+	border-right: 1px dotted lightgray;
+}
+.speaker-info h5 {
+	cursor: pointer;
 }

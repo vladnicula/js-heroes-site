@@ -195,15 +195,21 @@ $(function () {
         `
     }
 
+
+    $('.speaker-info').on('click', function() {
+      var target = $(this).parent().find('.speaker-hover');
+      target.trigger('click');
+    });
+
     $('#speakers').on('click', '.speaker-hover', function (event) {
         var target = $(event.target).closest('.speaker-info-box').find('.spearker-img')
         var speakerId = target[0].dataset && target[0].dataset.speaker
-        var content 
+        var content
 
         if ( speakerId ) {
-            content = $(speakerInfoModalTempalte(speakers[speakerId]))    
+            content = $(speakerInfoModalTempalte(speakers[speakerId]))
             content.modal().on('hide.bs.modal', function () {
-                content.remove()
+            content.remove()
             })
         }
     })
