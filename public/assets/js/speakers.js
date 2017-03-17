@@ -6,7 +6,7 @@ $(function () {
 
             img : 'assets/liran.png',
 
-            position: 'Web Apps Team Lead <br/>eXelate',
+            position: 'Engineering Manager<br/>Marketing Cloud, Nielsen',
             
             descriptionHtml: '<p>Liran is leading the core team for the MEAN.js JavaScript framework. He recently published Essential Node.js Security and authored other books in Agile, and Web development. Passionate about Open Source since an early age, he is continuously contributing to many projects on GitHub in Node.js, JavaScript, Docker, and Security.</p><p>Being an avid supporter and contributor to the open source movement, in 2007 Liran has redefined network RADIUS management by establishing daloRADIUS, a world-recognized and industry-leading <br/><a href="http://www.daloradius.com" class="text-blue" target="_blank">open source project</a>.</p>',
 
