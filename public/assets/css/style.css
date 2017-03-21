@@ -1279,16 +1279,16 @@ section#faq {
 	12. Sponsors
 ====================*/
 
-.sponsors-list {
+.sponsors-list, .partners-list {
 	margin:0 auto;
 	overflow:hidden;
 	text-align:center;
 }
-.sponsors-list > ul{
+.sponsors-list > ul, .partners-list > ul{
 	margin:0 auto;
 	padding:0;
 }
-.sponsors-list li {
+.sponsors-list li, .partners-list li {
   display: inline-block;
   list-style: outside none none;
   margin-bottom: 48px;
@@ -2126,7 +2126,7 @@ h5 {
 	line-height:50px;
 	padding:5px 45px;
 }
-.sponsors-list li {
+.sponsors-list li, .partners-list li {
   margin-bottom: 25px;
   margin-left: 30px;
   margin-right: 30px;
@@ -2445,13 +2445,16 @@ p {
 .form-group.newsletter-input {
 	margin-bottom:30px;
 }
-.sponsors-list li {
+.sponsors-list li, .partners-list li {
 	margin-bottom:31px;
 	margin-left:12px;
 	margin-right:12px;
 }
 .sponsors-list img {
 	max-width:100%;
+}
+.partners-list img {
+	max-width: 50%;
 }
 .border-box {
 	margin-bottom:50px;
@@ -2855,6 +2858,10 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .sponsors-list ul li a img {
 	max-width: 250px;
+}
+
+.partners-list ul li a img {
+	max-width: 200px;
 }
 .community-list a img {
 	max-width: 100%;
