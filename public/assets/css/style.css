@@ -590,7 +590,10 @@ nav.navigation ul li.dropdown:hover ul.dropdown-menu {
 #banner-code-conduct {
 	background-image:url(../images/header-background-shorter.jpg);
 }
-#banner-code-conduct .banner-fixed {
+#banner-about {
+	background-image: url(../images/about_banner_js_heroes_site.jpg)
+}
+#banner-code-conduct .banner-fixed, #banner-about .banner-fixed {
 	height: 50vh;
 }
 .banner-content h1 {
@@ -2865,8 +2868,8 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .community-list a img {
 	max-width: 100%;
-	width: 180px;
 	margin-bottom: 15px;
+	width: 95px;
 }
 .g-map-m .map-info span {
 	color: #000;
@@ -2904,4 +2907,17 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .speaker-info h5 {
 	cursor: pointer;
+}
+.no-padding {
+	padding: 0;
+}
+.float-left {
+	float: left;
+}
+.float-left a {
+	float: left;
+}
+.still-curious {
+	list-style-type: none;
+	padding: 0;
 }
