@@ -2921,3 +2921,6 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	list-style-type: none;
 	padding: 0;
 }
+.about-padding {
+	padding: 70px 0;
+}
