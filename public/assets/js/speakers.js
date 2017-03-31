@@ -126,7 +126,7 @@ $(function () {
             social : {
                 twitter : "https://twitter.com/rauchg",
                 github : "https://github.com/rauchg",
-                website : "https://github.com/rauchg"
+                website : "https://rauchg.com/"
             }
         },
     };
