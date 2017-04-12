@@ -129,6 +129,61 @@ $(function () {
                 website : "https://rauchg.com/"
             }
         },
+      moldovan : {
+        name: 'Alex Moldovan',
+        img : 'assets/AlexMoldovan.jpg',
+        position: 'JavaScript Ninja<br/>Fortech',
+        descriptionHtml: '<p>Coder, blogger and tech enthusiast in general, passionate about JavaScript and Functional Programming, Alex is always happy to talk about coding and software development in general. He is a huge militant for clean code and teaching people core programming skills and paradigms. Currently he works as a full stack developer splitting his time between JavaScript and Ruby but outside work, he`s a big promoter of open source software and communities, as he`s co-organizing Cluj JavaScripters.</p>',
+        social : {
+          twitter : "https://twitter.com/alexnmoldovan",
+          github : "https://github.com/alexnm",
+          website : "https://medium.com/@alexnm"
+        }
+      },
+      roxana : {
+        name: 'Roxana Rugina',
+        img : 'assets/RoxanaRugina.jpg',
+        position: 'CEO and Founder<br/>Simplon Romania',
+        descriptionHtml: '<p>Roxana is a technologist and communication expert engaged in social and disruptive innovation, passionate about future technologies, entrepreneurship and innovation in education. Her working experience with NGOs, international companies, governmental institutions, agencies and startups brought her to Simplon.co France where she learned Ruby & Ruby on Rails for 6 months. After 10 years of experience in web, marketing, education and communication,  she wants to help more people to learn how to code, develop digital & entrepreneurial skills to solve real problems with long term positive impact on societies.</p>',
+        social : {
+          twitter : "https://twitter.com/RoxanaRugina",
+          github : "https://www.linkedin.com/in/roxanarugina",
+          website : "http://ro.simplon.co/"
+        }
+      },
+      william : {
+        name: 'William Blankenship',
+        img : 'assets/WillBlackenship.png',
+        position: 'Independent Contractor',
+        descriptionHtml: '<p>Will is a high-school dropout turned recent college graduate. During college, he founded OpenSpace, a hackerspace collaborating with the local school district to give the region access to technology. He was also the chair of the college`s chapter of the Association of Computing Machinery, organized an undergraduate research symposium for Saint Louis Area, and helped organize HackSI, an all-ages hackathon in the Southern Illinois region. His professional shenanigans include working for Boeing and NodeSource. Currently, Will is an independent contractor specializing in Node.js software development and Docker based infrastructure.</p>',
+        social : {
+          twitter : "https://twitter.com/retrohack3r",
+          github : "https://github.com/retrohacker",
+          website : "http://will.blankenship.io/"
+        }
+      },
+      carlos : {
+        name: 'Carlos Justiniano',
+        img : 'assets/carlos-bw.jpg',
+        position: 'Chief Architect<br/>Flywheel Sports',
+        descriptionHtml: '<p>Veteran software developer, <a href="http://www.guinnessworldrecords.com/world-records/largest-networked-chess-computer/" target="_blank">world record holder</a>, author, and <a href="http://cjusphoto.com/" target="_blank">photographer</a>. Currently Chief Architect at Flywheel Sports - NYC. Founder and Organizer of the <a href="https://www.meetup.com/NYC-JavaScript-Flatiron/" target="_blank">NYC JavaScript @ Flatiron</a> group. Founder and core committer on the <a href="https://www.npmjs.com/package/hydra" target="_blank">Hydra open source project</a> for building Distributed Applications such as Microservices. Formally Head of Engineering at Estate Assist, Vp. of Engineer and Tech Founder at inSparq. Founded and advised numerous start-ups. Prior: Director of Software Development at iPayment.</p>',
+        social : {
+          twitter : "https://twitter.com/cjus",
+          github : "https://github.com/cjus",
+          website : "http://cjus.me"
+        }
+      },
+      nir : {
+        name: 'Nir Kaufman',
+        img : 'assets/NirKaufman.png',
+        position: 'Head of Angular Development<br/>500Tech',
+        descriptionHtml: '<p>Google Developer Expert (GDE - web technologies, Angular), worldwide conference speaker, Angular evangelist and community activist. Currently acting as the head of Angular department at 500Tech - a top front-end consultancy. Nir organizes the largest Angular community in Israel (Angular-IL), talk and teach about front-end technologies around the world and an organizer of AngularUP conference.</p>',
+        social : {
+          twitter : "https://twitter.com/nirkaufman",
+          github : "https://github.com/nirkaufman",
+          website : "http://500tech.com/"
+        }
+      },
     };
 
     const speakerInfoModalTempalte = function (speaker) {
