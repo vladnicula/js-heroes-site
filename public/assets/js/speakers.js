@@ -147,7 +147,8 @@ $(function () {
         descriptionHtml: '<p>Roxana is a technologist and communication expert engaged in social and disruptive innovation, passionate about future technologies, entrepreneurship and innovation in education. Her working experience with NGOs, international companies, governmental institutions, agencies and startups brought her to Simplon.co France where she learned Ruby & Ruby on Rails for 6 months. After 10 years of experience in web, marketing, education and communication,  she wants to help more people to learn how to code, develop digital & entrepreneurial skills to solve real problems with long term positive impact on societies.</p>',
         social : {
           twitter : "https://twitter.com/RoxanaRugina",
-          github : "https://www.linkedin.com/in/roxanarugina",
+          // github : "https://www.linkedin.com/in/roxanarugina",
+          github : "#",
           website : "http://ro.simplon.co/"
         }
       },
