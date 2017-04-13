@@ -52,7 +52,7 @@ $(function () {
         martin : {
             name: 'Martin Splitt',
             img : 'assets/martin.jpg',
-            position: 'Senior software engineer<br/>Archilogic',
+            position: 'Senior Software Engineer<br/>Archilogic',
             descriptionHtml: '<p>Open web &amp; open source cheerleader, Google Developer Expert for web technologies, W3C contributor, O\'Reilly Workshop instructor, book author and a good guy with a loud laugh. </p>',
             social : {
                 twitter : "https://twitter.com/g33konaut",
@@ -132,7 +132,7 @@ $(function () {
       moldovan : {
         name: 'Alex Moldovan',
         img : 'assets/AlexMoldovan.jpg',
-        position: 'JavaScript Ninja<br/>Fortech',
+        position: 'Full Stack Engineer<br/>Fortech',
         descriptionHtml: '<p>Coder, blogger and tech enthusiast in general, passionate about JavaScript and Functional Programming, Alex is always happy to talk about coding and software development in general. He is a huge militant for clean code and teaching people core programming skills and paradigms. Currently he works as a full stack developer splitting his time between JavaScript and Ruby but outside work, he`s a big promoter of open source software and communities, as he`s co-organizing Cluj JavaScripters.</p>',
         social : {
           twitter : "https://twitter.com/alexnmoldovan",
@@ -166,7 +166,7 @@ $(function () {
         name: 'Carlos Justiniano',
         img : 'assets/carlos-bw.jpg',
         position: 'Chief Architect<br/>Flywheel Sports',
-        descriptionHtml: '<p>Veteran software developer, <a href="http://www.guinnessworldrecords.com/world-records/largest-networked-chess-computer/" target="_blank">world record holder</a>, author, and <a href="http://cjusphoto.com/" target="_blank">photographer</a>. Currently Chief Architect at Flywheel Sports - NYC. Founder and Organizer of the <a href="https://www.meetup.com/NYC-JavaScript-Flatiron/" target="_blank">NYC JavaScript @ Flatiron</a> group. Founder and core committer on the <a href="https://www.npmjs.com/package/hydra" target="_blank">Hydra open source project</a> for building Distributed Applications such as Microservices. Formally Head of Engineering at Estate Assist, Vp. of Engineer and Tech Founder at inSparq. Founded and advised numerous start-ups. Prior: Director of Software Development at iPayment.</p>',
+        descriptionHtml: '<p>Veteran software developer, <a href="http://www.guinnessworldrecords.com/world-records/largest-networked-chess-computer/" target="_blank">world record holder</a> and author. Currently Chief Architect at Flywheel Sports - NYC. Founder and Organizer of the <a href="https://www.meetup.com/NYC-JavaScript-Flatiron/" target="_blank">NYC JavaScript @ Flatiron group</a>. Founder and core committer on the <a href="https://www.npmjs.com/package/hydra" target="_blank">Hydra open source project</a> for building NodeJS Microservices.</p>',
         social : {
           twitter : "https://twitter.com/cjus",
           github : "https://github.com/cjus",
