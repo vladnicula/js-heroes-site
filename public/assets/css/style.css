@@ -2943,18 +2943,13 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	margin-top: 30px;
+	margin-top: 70px;
 }
 .bg-eventbrite {
 	background-color: #f8f8fa;
-	height: 77%;
 }
 .jsheroes-logo {
 	width: 100%;
-	padding-left: 40px;
-}
-.margin-row-tickets {
-	margin: 0 106px
 }
 .tickets-available {
 	background-color: #0098FF;
@@ -2974,16 +2969,6 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 .gray-text {
 	color: #8e8e8e!important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tito-wrapper {
+	max-width: none!important;
+}
