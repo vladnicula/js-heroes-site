@@ -573,7 +573,6 @@ nav.navigation ul li.dropdown:hover ul.dropdown-menu {
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:center;
 	position:relative;
 	overflow:hidden;
 }
@@ -1043,6 +1042,8 @@ audio, canvas, progress, video {
 	float:left;
 	padding:34px 10px;
 	width:515px;
+	position: absolute;
+	left: 18%;
 }
 .conf-user-info h5 {
 	color:#de302f;
@@ -2936,3 +2937,53 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 .custom-padding {
 	padding: 0 10%;
 }
+#tickets {
+	background-image: url('../images/header-background.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	margin-top: 30px;
+}
+.bg-eventbrite {
+	background-color: #f8f8fa;
+	height: 77%;
+}
+.jsheroes-logo {
+	width: 100%;
+	padding-left: 40px;
+}
+.margin-row-tickets {
+	margin: 0 106px
+}
+.tickets-available {
+	background-color: #0098FF;
+}
+.active {
+	display: block!important;
+}
+.tab-pane {
+	display: none;
+}
+.day-time-m ul li {
+	float: left;
+}
+.day-time-m ul {
+	margin-left: 31%;
+}
+.gray-text {
+	color: #8e8e8e!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

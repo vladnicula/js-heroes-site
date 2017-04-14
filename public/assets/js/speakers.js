@@ -185,6 +185,17 @@ $(function () {
           website : "http://500tech.com/"
         }
       },
+      nir : {
+        name: 'Nir Kaufman',
+        img : 'assets/NirKaufman.png',
+        position: 'Head of Angular Development<br/>500Tech',
+        descriptionHtml: '<p>Developer, teacher, sports-fanatic. When he`s not working on simplifying online collaboration at join.me by LogMeIn, he`s researching the patterns and algorithms connecting basketball, trail running, and drums. His devotion for impeccable user interfaces is rivaled only by his constant search for the perfect brew of Chinese green tea. Benedek is also one of the organizers of the Budapest AngularJS community.</p>',
+        social : {
+          twitter : "https://twitter.com/BenedekGagyi",
+          github : "#",
+          website : "#"
+        }
+      },
     };
 
     const speakerInfoModalTempalte = function (speaker) {
