@@ -196,6 +196,28 @@ $(function () {
           website : "#"
         }
       },
+      gergely : {
+        name: 'Benedek Gagyi',
+        img : 'assets/gergely.jpg',
+        position: 'Fullstack developer<br/>Catalysts',
+        descriptionHtml: '<p>Passionate about programming since he was a kid, Tudor is never bored to talk about computers and software. Nowadays he spends his time learning new things and helping others reach their full potential. Never saying no to a challenge, Tudor co-organizes Cluj Javascripters, promoting free learning and open source.</p>',
+        social : {
+          twitter : "#",
+          github : "https://github.com/tudorgergely",
+          website : "#"
+        }
+      },
+      salnikov : {
+        name: 'Maxim Salnikov',
+        img : 'assets/maximsalnikov.png',
+        position: 'UI Engineer<br/>ForgeRock',
+        descriptionHtml: '<p>Maxim Salnikov is Oslo-based Web UI Engineer, a Google Developer Expert in Web Technologies and Angular. He develops complex web applications since the end of the last century and has extensive experience with all aspects of web front-end: UX/UI prototyping, HTML/CSS/JS, main frameworks, progressive web apps. Maxim is a founder and active contributor to two conferences: Mobile Era and ngVikings - Nordics’ main conferences for mobile and Angular developers respectively. Also, he leads Norway’s largest meetups dedicated to web front-end and mobile: Framsia, Angular Oslo, Mobile Meetup Oslo. Maxim is passionate about sharing his web front-end experience and knowledge with the community. He travels extensively for visiting developers events and speaking/training at conferences and meetups around the world.</p>',
+        social : {
+          twitter : "https://twitter.com/webmaxru",
+          github : "https://github.com/webmaxru",
+          website : "#"
+        }
+      }
     };
 
     const speakerInfoModalTempalte = function (speaker) {
