@@ -1042,8 +1042,6 @@ audio, canvas, progress, video {
 	float:left;
 	padding:34px 10px;
 	width:515px;
-	position: absolute;
-	left: 18%;
 }
 .conf-user-info h5 {
 	color:#de302f;
@@ -2589,23 +2587,33 @@ p {
 
 
 @media (max-width:479px) {
+.tab-pane.active .conf-user-time .time-schedule {
+	font-size: 12px;
+}
+.tab-pane.active .conf-user-time span.time {
+	font-size: 16px;
+	margin-bottom: -10px;
+}
 .tab-pane.active {
 	margin-top: 50px;
 }
 .tab-pane.active .conf-user-time {
 	float: left;
+	width: 22%;
+	padding-top: 70px;
+	padding-left: 0;
 }
 .tab-pane.active .conf-user-info {
-	padding: 6px 0 25px 25px;
-	width: 80%;
+	padding: 6px 0 25px;
+	width: 77%;
 	text-align: right;
 }
 .tab-pane.active .conf-user-info h5 {
-	width: 85%;
+	width: 100%;
 	float: right;
 }
 .tab-pane.active .conf-user-info h6 {
-	width: 80%;
+	width: 100%;
 	float: right;
 }
 .banner-content h1, h1 {
@@ -2680,7 +2688,7 @@ h2 {
 }
 .conference-time-list {
   padding: 10px 0;
-  height: 120px;
+  height: 117px;
 }
 .conf-user-time span.time {
 	display:inline-block;
@@ -2694,9 +2702,16 @@ h2 {
 	text-align:center;
 }
 .conf-user-img {
-	float:left;
-	padding:4px 4% 4px 0;
-	width:22%;
+	float: left;
+	padding: 4px 4% 4px 0;
+	width: 22%;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+}
+.conf-user-img img {
+	margin-right: 0!important;
+	margin-left: 0!important;
 }
 .conf-close {
   font-size: 20px;
