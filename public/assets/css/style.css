@@ -2589,7 +2589,25 @@ p {
 
 
 @media (max-width:479px) {
-
+.tab-pane.active {
+	margin-top: 50px;
+}
+.tab-pane.active .conf-user-time {
+	float: left;
+}
+.tab-pane.active .conf-user-info {
+	padding: 6px 0 25px 25px;
+	width: 80%;
+	text-align: right;
+}
+.tab-pane.active .conf-user-info h5 {
+	width: 85%;
+	float: right;
+}
+.tab-pane.active .conf-user-info h6 {
+	width: 80%;
+	float: right;
+}
 .banner-content h1, h1 {
   font-size: 40px;
 }
@@ -2662,6 +2680,7 @@ h2 {
 }
 .conference-time-list {
   padding: 10px 0;
+  height: 120px;
 }
 .conf-user-time span.time {
 	display:inline-block;
