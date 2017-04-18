@@ -197,7 +197,7 @@ $(function () {
         }
       },
       gergely : {
-        name: 'Benedek Gagyi',
+        name: 'Tudor Gergely',
         img : 'assets/gergely.jpg',
         position: 'Fullstack developer<br/>Catalysts',
         descriptionHtml: '<p>Passionate about programming since he was a kid, Tudor is never bored to talk about computers and software. Nowadays he spends his time learning new things and helping others reach their full potential. Never saying no to a challenge, Tudor co-organizes Cluj Javascripters, promoting free learning and open source.</p>',
