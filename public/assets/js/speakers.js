@@ -217,6 +217,28 @@ $(function () {
           github : "https://github.com/webmaxru",
           website : "#"
         }
+      },
+      chereches : {
+        name: 'Ovidiu Cherecheș',
+        img : 'assets/chereches.png',
+        position: 'React & JS Consultant',
+        descriptionHtml: '<p>Ovidiu is a React & JS consultant. Previously Engineering Manager at [Hootsuite], leading the UI development of the Analytics product. Before that, he`s helped build countless web experiences working with startups, agencies and large organizations.</p><p>He spends most of his time creating user interfaces and open source software, such as [React Cosmos] and [Illustrated Algorithms]. He`s also founded the React.js Bucharest community, where he hosted a number of meetups and hackathons.</p>',
+        social : {
+          twitter : "https://twitter.com/skidding",
+          github : "https://github.com/skidding",
+          website : "https://ovidiu.ch"
+        }
+      },
+      pavithra : {
+        name: 'Pavithra Kodmad',
+        img : 'assets/pavithra.png',
+        position: 'UI Engineer<br/>Flipkart.com',
+        descriptionHtml: '<p>UI Engineer@Flipkart.com, Javascript fanatic. Get my highs from learning. Socially Anxious. Cat gifs are the way to my heart.</p>',
+        social : {
+          twitter : "https://twitter.com/PKodmad",
+          github : "https://github.com/pksjce",
+          website : "https://pksjce.github.io"
+        }
       }
     };
 
