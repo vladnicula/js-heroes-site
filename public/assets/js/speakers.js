@@ -233,7 +233,7 @@ $(function () {
         name: 'Pavithra Kodmad',
         img : 'assets/pavithra.png',
         position: 'UI Engineer<br/>Flipkart.com',
-        descriptionHtml: '<p>UI Engineer@Flipkart.com, Javascript fanatic. Get my highs from learning. Socially Anxious. Cat gifs are the way to my heart.</p>',
+        descriptionHtml: '<p>Javascript fanatic, Pavithra gets highs from learning. Socially Anxious. Certified Cat Whisperer, Gooner, OSS Newbie.</p>',
         social : {
           twitter : "https://twitter.com/PKodmad",
           github : "https://github.com/pksjce",
