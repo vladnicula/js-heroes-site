@@ -61,7 +61,7 @@ $(function () {
             }
         },
         calinescu : {
-            name: 'Dan Calinescu',
+            name: 'Dan Călinescu',
             img : 'assets/calinescu.jpg',
             position: 'Knowledge Manager<br/>Evozon',
             descriptionHtml: '<p>Developer, writer, educator and father, on a mission to contribute to a future where technology serves humanity - not the other way around. Expert diaper-changer with a ridiculous passion for Open Source.</p>',
@@ -141,7 +141,7 @@ $(function () {
         }
       },
       roxana : {
-        name: 'Roxana Rugina',
+        name: 'Roxana Rugină',
         img : 'assets/RoxanaRugina.jpg',
         position: 'CEO and Founder<br/>Simplon Romania',
         descriptionHtml: '<p>Roxana is a technologist and communication expert engaged in social and disruptive innovation, passionate about future technologies, entrepreneurship and innovation in education. Her working experience with NGOs, international companies, governmental institutions, agencies and startups brought her to Simplon.co France where she learned Ruby & Ruby on Rails for 6 months. After 10 years of experience in web, marketing, education and communication,  she wants to help more people to learn how to code, develop digital & entrepreneurial skills to solve real problems with long term positive impact on societies.</p>',
@@ -233,7 +233,7 @@ $(function () {
         name: 'Pavithra Kodmad',
         img : 'assets/pavithra.png',
         position: 'UI Engineer<br/>Flipkart.com',
-        descriptionHtml: '<p>Javascript fanatic, Pavithra gets highs from learning. Socially Anxious. Certified Cat Whisperer, Gooner, OSS Newbie.</p>',
+        descriptionHtml: '<p>Pavithra is a Bangalore based Web UI developer. She has been building web applications of various description from the past 6 years. She is a JS framework junkie who has written production applications in Backbone, Ember, Angular and now, React. She likes to participate in welcoming open source communities and is particularly interested in front-end developer tools. She listens to classic rock and loves to watch anime movies.</p>',
         social : {
           twitter : "https://twitter.com/PKodmad",
           github : "https://github.com/pksjce",

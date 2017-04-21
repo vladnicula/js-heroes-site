@@ -1974,6 +1974,9 @@ nav.navigation ul li {
 
 
 @media (max-width: 1200px) {
+	.day-time-m {
+		display: block!important;
+	}
 
 	body {
 		text-align: center
@@ -2587,6 +2590,10 @@ p {
 
 
 @media (max-width:479px) {
+.day-time-m.bottom li.active::after {
+
+}
+
 .tab-pane.active .conf-user-time .time-schedule {
 	font-size: 12px;
 }
@@ -2901,7 +2908,7 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 
 .partners-list ul li a img {
-	max-width: 180px;
+	max-width: 190px;
 }
 .community-list a img {
 	max-width: 100%;
@@ -3007,4 +3014,92 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .tito-wrapper {
 	max-width: none!important;
+}
+.logo-sponsor, .logo-partner {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: all 0.5s ease;
+}
+.logo-sponsor:hover, .logo-partner:hover {
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.sponsors-list {
+	margin-bottom: 100px;
+}
+.day-time-m {
+	display: none;
+}
+@media (min-width: 1200px) {
+	#schedule .container .col-sm-12.col-lg-12.col-lg-offset-2 {
+		margin: 0!important;
+	}
+	#schedule .tab-pane {
+		display: block!important;
+		float: left;
+		width: 50%;
+	}
+	#schedule .tab-pane .conference-time-list {
+		height: 120px;
+	}
+	#schedule .tab-pane .conference-time-list .conf-user-info {
+		width: 330px;
+		padding: 20px 10px;
+	}
+	#schedule .conf-user-time {
+		padding:0;
+	}
+	#schedule .conf-user-time span.time {
+		font-size: 24px;
+		color: #8e8e8e;
+		text-align: right;
+		margin-bottom: -20px;
+	}
+	#schedule .conf-user-time span.time-schedule {
+		font-size: 16px;
+		color: #8e8e8e;
+	}
+	#schedule .conf-user-info h6 {
+		color: #fff;
+	}
+	#schedule .conf-user-img {
+		padding: 20px;
+	}
+	#day1:before, #day2:before {
+		width: 43px;
+		height: 20px;
+		background-color: #228dcb;
+		margin-left: 27%;
+		padding: 15px 10px;
+		font-size: 16px;
+		display: block;
+		text-align: center;
+		border-bottom: 15px solid #222;
+		box-sizing: content-box;
+		font-weight: 100;
+	}
+	#day1:before {
+		content: "Day 1";
+	}
+	#day2:before {
+		content: "Day 2";
+	}
+	#day1:after, #day2:after {
+		content: " ";
+		position: absolute;
+
+		border-top: 10px solid #228dcb;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+	}
+	#day1:after {
+		top: 50px;
+		left: 16.3%;
+	}
+	#day2:after {
+		top: 50px;
+		left: 65%;
+	}
 }
