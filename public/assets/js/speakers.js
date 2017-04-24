@@ -110,7 +110,7 @@ $(function () {
             name: 'Gautam Arora',
             img : 'assets/gautam.jpeg',
             position: 'Developer Evangelist<br/>Conde Nast',
-            descriptionHtml: '<p>Gautam is the Engineering Manager and Developer Evangelist at <a href="http://www.cntraveler.com/" target="_blank">Conde Nast Traveler</a>, an organizer of New York JavaScript where he runs NodeSchool NYC, and a self-published author at <a href="http://fullstackjs.com/" target="_blank">FullStack JavaScript</a>.</p>',
+            descriptionHtml: '<p>Gautam is a Developer Evangelist at <a href="http://www.condenast.com/" target="_blank">Conde Nast</a>, an organizer of New York JavaScript where he runs NodeSchool NYC, and a self-published author at <a href="http://fullstackjs.com/" target="_blank">FullStack JavaScript</a>.</p>',
             social : {
                 twitter : "https://twitter.com/gautam",
                 github : "https://github.com/gautamarora",
