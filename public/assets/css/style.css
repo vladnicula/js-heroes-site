@@ -3103,3 +3103,82 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 		left: 65%;
 	}
 }
+
+
+@media (max-width: 479px) {
+	.schedule-dayz {
+		margin: 50px -5px 20px!important;
+	}
+	.tab-pane .conf-user-time {
+		float: left;
+		width: 22%;
+		padding-top: 70px;
+		padding-left: 0;
+	}
+	.tab-pane .conf-user-info {
+		padding: 6px 0 25px;
+		width: 77%;
+		text-align: right;
+	}
+	.tab-pane .conf-user-time span.time {
+		font-size: 16px;
+		margin-bottom: -10px;
+	}
+	.tab-pane .conf-user-time .time-schedule {
+		font-size: 12px;
+	}
+}
+@media (min-width: 479px) and (max-width: 768px) {
+	.schedule-dayz {
+		margin: 50px 75px 20px!important;
+	}
+}
+@media (max-width: 992px) {
+	.schedule-dayz {
+		margin: 50px 117px 20px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.schedule-dayz {
+		margin: 50px 147px 20px!important;
+	}
+}
+@media (max-width: 1200px) {
+	.day-time-m {
+		display: none!important;
+	}
+	.schedule-dayz {
+		display: inline;
+	}
+	#day2 {
+		display: block;
+	}
+	#day2 .conference-time-list.empty {
+		display: none;
+	}
+	.schedule-dayz {
+		display: inline-block;
+		padding: 20px;
+		background-color: #228dcb;
+		float: left;
+		margin: 50px 117px 20px;
+
+		position:relative;
+	}
+	.schedule-dayz:after {
+		content: " ";
+		position: absolute;
+		border-top: 10px solid #228dcb;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+		top: 60px;
+		left: 28px;
+	}
+}
+
+.schedule-dayz {
+	display: none;
+}
+.clearfix {
+	clear:both;
+}
