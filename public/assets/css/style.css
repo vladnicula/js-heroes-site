@@ -3043,6 +3043,9 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	display: none;
 }
 @media (min-width: 1200px) {
+	#schedule .conf-user-info h6 {
+		width: 80%;
+	}
 	#schedule .container .col-sm-12.col-lg-12.col-lg-offset-2 {
 		margin: 0!important;
 	}
