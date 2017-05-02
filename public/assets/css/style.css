@@ -1052,8 +1052,6 @@ audio, canvas, progress, video {
   font-size: 16px;
   font-weight: 300;
   margin: 0 auto;
-  float: left;
-  width: 80%;
 }
 .conf-user-content {
 	overflow:hidden;
