@@ -1067,9 +1067,8 @@ audio, canvas, progress, video {
 	text-align: left;
 	line-height: 21px;
 }
-.collapse.in .conf-user-content p {
-	padding-bottom: 35px;
-	transition: padding-bottom 0.7s ease-out;
+.conf-user-info .conf-user-content p {
+	margin-bottom: 50px;
 }
 
 .conf-close {
@@ -2513,7 +2512,6 @@ p {
   height: 32px;
   line-height: 32px;
   right: 8px;
-  top: 38px;
   width: 32px;
 }
 .speaker-info-box {
@@ -2740,7 +2738,6 @@ h2 {
   font-size: 20px;
   height: 32px;
   right: 7px;
-  top: 20px;
   line-height: 32px;
   width: 32px;
 }
