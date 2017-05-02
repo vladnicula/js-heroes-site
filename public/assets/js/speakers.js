@@ -239,6 +239,17 @@ $(function () {
           github : "https://github.com/pksjce",
           website : "https://pksjce.github.io"
         }
+      },
+      ronodi : {
+        name: 'Robert Onodi',
+        img : 'assets/ronodi.png',
+        position: 'Software Architect<br/>Evozon',
+        descriptionHtml: '<p>Robert is currently a Software Architect at Evozon, but has been writing code past a decade. He is passionate about JavaScript, application architectures and mentoring. Beside the daily programming routines, he is also a trainer at Scoala Informala de IT, in Cluj-Napoca, a speaker at serveral JS related conferences and finally a writer both on his blog and <a href="https://www.packtpub.com/web-development/mean-blueprints" target="_blank">traditional hardcover.</a></p>',
+        social : {
+          twitter : "https://twitter.com/robertonodi",
+          github : "https://github.com/robert52",
+          website : "http://robertonodi.me"
+        }
       }
     };
 
