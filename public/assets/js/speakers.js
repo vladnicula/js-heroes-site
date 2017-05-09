@@ -250,6 +250,17 @@ $(function () {
           github : "https://github.com/robert52",
           website : "http://robertonodi.me"
         }
+      },
+      vladimir : {
+        name: 'Vladimir Porton',
+        img : 'assets/vladimir.png',
+        position: 'Senior React & React Native developer<br/>500Tech',
+        descriptionHtml: '<p>Israel-based Front-End and React Native developer at 500Tech. Worked on tens of projects using Angular, React and React Native. </a></p>',
+        social : {
+          twitter : "#",
+          github : "https://github.com/portons",
+          website : "#"
+        }
       }
     };
 

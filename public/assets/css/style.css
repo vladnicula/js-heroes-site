@@ -362,7 +362,7 @@ textarea {
 	overflow:hidden
 }
 .section-header {
-	margin-bottom:80px
+	margin-bottom:45px
 }
 .section-header p {
 	width:98%;
@@ -1304,7 +1304,7 @@ section#faq {
 .sponsors-list li, .partners-list li {
   display: inline-block;
   list-style: outside none none;
-  margin-bottom: 48px;
+  margin-bottom: 10px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -2915,7 +2915,7 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	display: table-cell;
 }
 .sponsors-list ul li a img {
-	max-width: 190px;
+	max-width: 188px;
 }
 
 .partners-list ul li a img {
@@ -3215,7 +3215,6 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .diversity-enthusiast {
 	margin: 60px auto 0;
-	padding-top: 20px;
 }
 .diversity-enthusiast p {
 	text-align: center;
