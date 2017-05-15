@@ -1342,7 +1342,7 @@ section#faq {
 	color:#de302f;
 }
 .g-map-m .gmap {
-	height:666px;
+	height:500px;
 	width:100%;
 }
 
@@ -1357,8 +1357,8 @@ footer {
 }
 
 .footer-social-tab {
+  margin-top: 40px;
   margin-bottom: 80px;
-  /*margin-top: 145px;*/
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -1373,19 +1373,19 @@ footer {
   vertical-align: middle;
 }
 .footer-social-tab a {
-  border: 1px solid hsl(0, 1%, 35%);
-  border-radius: 50%;
-  color: hsl(0, 0%, 100%);
-  display: block;
-  font-size: 35px;
-  height: 80px;
-  line-height: 80px;
-  margin: 0 22px;
-  width: 80px;
+	border: 1px solid hsl(0, 1%, 35%);
+	border-radius: 50%;
+	color: hsl(0, 0%, 100%);
+	display: block;
+	font-size: 35px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 22px;
+	width: 80px;
 }
 .footer-social-tab a:hover {
-  border: 1px solid hsl(0, 73%, 53%);
-  color: hsl(0, 73%, 53%);
+	border: 1px solid hsl(0, 73%, 53%);
+	color: hsl(0, 73%, 53%);
 }
 .footer-logo-text p {
 	font-size:306px;
@@ -2601,10 +2601,11 @@ p {
 
 
 @media (max-width:479px) {
-.day-time-m.bottom li.active::after {
-
+#newsletter p {
+	font-size: 18px;
+	line-height: 1.58;
+	letter-spacing: -.004em;
 }
-
 .tab-pane.active .conf-user-time .time-schedule {
 	font-size: 12px;
 }
@@ -3218,4 +3219,67 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .diversity-enthusiast p {
 	text-align: center;
+}
+#contact .col-md-6 h4 {
+	margin: 0;
+}
+
+#banner-newsletter {
+	background-image: url('../images/newsletter_banner.png');
+	height: 50vh!important;
+}
+#newsletter p {
+	font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 21px;
+	line-height: 1.58;
+	letter-spacing: -.003em;
+}
+
+@media (max-width:479px) {
+	#newsletter p {
+		font-size: 18px;
+		line-height: 1.58;
+		letter-spacing: -.004em;
+	}
+}
+#contact .footer-social-tab a {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	color: hsl(0, 0%, 100%);
+	display: block;
+	font-size: 35px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 22px;
+	width: 80px;
+}
+#contact .footer-social-tab a:hover {
+	border: 1px solid #000;
+	color: #0098FF;
+	background-color: #fff;
+}
+.social-icons-newsletter {
+	list-style-type: none;
+	margin-top: 50px;
+}
+.social-icons-newsletter li {
+	display: inline-block;
+	margin-right: 25px;
+}
+.social-icons-newsletter li a {
+	font-size: 60px;
+}
+.social-icons-newsletter li:nth-child(2) a {
+	color: #3b5998;
+}
+.social-icons-newsletter li:nth-child(3) a {
+	color: #323131;
+}
+.social-icons-newsletter li:nth-child(4) a {
+	color: #e51937;
+}
+#newsletter .section-padding {
+	padding-bottom: 0;
 }
