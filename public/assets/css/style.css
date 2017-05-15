@@ -3260,6 +3260,9 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	color: #0098FF;
 	background-color: #fff;
 }
+#contact .former-contact {
+	margin-top: 50px;
+}
 .social-icons-newsletter {
 	list-style-type: none;
 	margin-top: 50px;
