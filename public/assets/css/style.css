@@ -548,6 +548,7 @@ nav.navigation ul li .dropdown-menu li {
 }
 
 @media (min-width:768px) {
+
 nav.navigation ul li.dropdown:hover ul.dropdown-menu {
 	display:block !important;
 }
@@ -3156,11 +3157,23 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	}
 }
 @media (max-width: 992px) {
+	#contact .former-contact {
+		margin-top: 50px;
+	}
 	.schedule-dayz {
 		margin: 50px 117px 20px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1200px) {
+	.g-map-m .gmap {
+		height: 500px!important;
+	}
+	#contact .footer-social-tab a {
+		font-size: 30px!important;
+		height: 65px!important;
+		line-height: 65px!important;
+		width: 65px!important;
+	}
 	.schedule-dayz {
 		margin: 50px 147px 20px!important;
 	}
@@ -3260,9 +3273,7 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 	color: #0098FF;
 	background-color: #fff;
 }
-#contact .former-contact {
-	margin-top: 50px;
-}
+
 .social-icons-newsletter {
 	list-style-type: none;
 	margin-top: 50px;
@@ -3285,4 +3296,7 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 #newsletter .section-padding {
 	padding-bottom: 0;
+}
+#newsletter-body .dark-overlay {
+	background: hsla(0,0%,0%,.4) none repeat scroll 0 0;
 }
