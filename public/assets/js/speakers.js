@@ -85,7 +85,7 @@ $(function () {
         xavier : {
             name: 'Xavier Cazalot',
             img : 'assets/xavier.jpeg',
-            position: 'Consultant, Javascript Engineer',
+            position: 'Software Engineer<br/>OK GROW!',
             descriptionHtml: "<p>I'm passionate about open-source, and I build apps for early-stage startups as an independent developer for a living. I'm also the maintainer of two Apollo-related open-source projects: the Meteor's Apollo integration & Telescope, one of the biggest Meteor open-source app running with React & GraphQL.</p>",
             social : {
                 twitter : "https://twitter.com/xav_cz",
