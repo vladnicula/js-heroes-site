@@ -43,7 +43,7 @@ $(function(e) {
 	 Timer
 	-------------------------------------------------------------------------------*/
  	var austDay = new Date();
-	austDay = new Date('2017-06-08 09:00');
+	austDay = new Date('2017-06-08 08:00');
 	$('#defaultCountdown').countdown({until: austDay});
 	$('#year').text(austDay.getFullYear());
  
@@ -78,7 +78,7 @@ $('.conf-close').on('click', function(e) {
 	Countdown
 	-------------------------------------------------------------------*/
  
-	var endDate = "june 08, 2017";
+	var endDate = new Date('2017-06-08 08:00');
 	$('.countdown.styled').countdown({
 	  date: endDate,
 	  render: function(data) {
