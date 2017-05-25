@@ -77,8 +77,8 @@ $('.conf-close').on('click', function(e) {
  /*------------------------------------------------------------------
 	Countdown
 	-------------------------------------------------------------------*/
- 
-	var endDate = new Date('2017-06-08 08:00');
+ 	var endDateString = '2017-06-08 08:00';
+	var endDate = new Date(endDateString.replace(/-/g, '/'));
 	$('.countdown.styled').countdown({
 	  date: endDate,
 	  render: function(data) {
