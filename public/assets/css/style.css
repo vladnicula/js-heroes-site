@@ -1009,7 +1009,7 @@ audio, canvas, progress, video {
 	padding:3px 25px;
 }
 .conference-time-list {
-	border-top:3px solid #393939;
+	/*border-top:3px solid #393939;*/
 	overflow:hidden;
 	position:relative;
 }
@@ -1986,6 +1986,9 @@ nav.navigation ul li {
 
 
 @media (max-width: 1200px) {
+	.half-is-fine {
+		display: none;
+	}
 	.day-time-m {
 		display: block!important;
 	}
@@ -3299,4 +3302,7 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 #newsletter-body .dark-overlay {
 	background: hsla(0,0%,0%,.4) none repeat scroll 0 0;
+}
+.half-is-fine {
+	min-height: 65px;
 }
