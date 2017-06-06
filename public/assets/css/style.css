@@ -1986,6 +1986,9 @@ nav.navigation ul li {
 
 
 @media (max-width: 1200px) {
+    body .info-page {
+        text-align: left;
+    }
 	.half-is-fine {
 		display: none;
 	}
@@ -3305,4 +3308,23 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 }
 .half-is-fine {
 	min-height: 65px;
+}
+
+#banner-info {
+	background-image: url('../images/info_banner.png');
+	height: 50vh!important;
+}
+#newsletter.info-page span{
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+}
+#newsletter.info-page ul li{
+    list-style:none;
+}
+#newsletter.info-page h4 {
+    color: #228dcb;
 }
