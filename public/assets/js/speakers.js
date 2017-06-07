@@ -90,7 +90,7 @@ $(function () {
             social : {
                 twitter : "https://twitter.com/xav_cz",
                 github : "https://github.com/xavcz",
-                website : "http://xav.cz"
+                website : "https://xaviercazalot.com/"
             }
         },
 
