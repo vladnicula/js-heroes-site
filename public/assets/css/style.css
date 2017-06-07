@@ -3328,3 +3328,6 @@ nav.navigation ul li.active a, nav.navigation ul li a:hover {
 #newsletter.info-page h4 {
     color: #228dcb;
 }
+.countdown-btn.half-width a {
+	text-transform: none!important;
+}
